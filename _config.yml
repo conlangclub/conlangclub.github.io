@@ -4,17 +4,6 @@ domain: conlang.club
 url: https://conlang.club
 baseurl: ""
 
-collections:
-    sign-ling:
-        output: true
-        order:
-            - index.html
-            - phonology/sign-constituents.html
-            - phonology/handshape.html
-            - phonology/transcription.html
-            - phonology/sign-types.html
-            - links.html
-
 plugins:
     - jekyll-postcss
 
