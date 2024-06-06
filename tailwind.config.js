@@ -6,8 +6,6 @@ module.exports = {
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './_posts/*.md',
-    './_sign-ling/**/*.html',
-    './_sign-ling/**/*.md',
     './*.md',
     './*.html',
   ],
