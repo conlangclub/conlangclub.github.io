@@ -6,7 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta property="og:title" content="{{ page.title }} - Seattle Conlang Club" />
-  <meta property="og:description" content="The official website of the Seattle Conlang Club" />
+  {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}" />
+  {% else %}
+    <meta property="og:description" content="The official website of the Seattle Conlang Club" />
+  {% endif %}
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://conlang.club/" />
   <meta property="og:image" content="{{ '/assets/images/sea-conlang-flag.png' | absolute_url}}" />

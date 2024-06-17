@@ -1,8 +1,9 @@
 ---
-title: Zine
+title: Seattle Conlang Club Zine
 layout: prose
+description: Information about the Seattle Conlang Club Zine, a conlang zine made by SCC members, and its submission guidelines.
 ---
-<h2 class="mb-0">Conlang Club Zine</h2>
+<h2 class="mb-0">Seattle Conlang Club Zine</h2>
 <p class="lead">The Seattle Conlang Club is making its first zine! It will feature Conlang-related articles and art from our very own members.</p>
 
 * [Submission guidelines](#submission-guidelines)
