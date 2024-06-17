@@ -14,16 +14,16 @@
 @tailwind utilities;
 
 .jumbotron {
-  background-image: url("../images/conlang-flag.svg");
+  background-image: url("../images/sea-conlang-flag.svg");
   background-repeat: no-repeat;
-  background-position: center bottom -40px;
-  background-size: auto 20rem;
+  background-position: center bottom -3.4rem;
+  background-size: auto 14rem;
 }
 
 @media screen and (min-width: 768px) {
   .jumbotron {
-    background-position: left bottom -80px;
-    background-size: auto 20rem;
+    background-position: left 6rem bottom -3.3rem;
+    background-size: auto 14rem;
     height: auto;
   }
 }
