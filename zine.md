@@ -12,6 +12,8 @@ layout: prose
 ### Submission guidelines
 **The submission deadline is August 31, 2024 at 11:59 PM Pacific.** We are aiming to publish by September 16.
 
+* When you submit an article, please submit it in `#club-zine` in the Discord and ping `@Zine submission`.
+  - If you don't, your submission may be missed.
 * All members may submit one or more zine articles
 * Your submission **must** be a PDF file where the page layout is 5.5 x 8.5 in.
 * Your outer page margins **must** be **at least** a quarter inch (1/4 in). Half inch (1/2 in) margins recommended.
