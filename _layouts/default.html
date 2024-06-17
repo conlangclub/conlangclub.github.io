@@ -9,15 +9,15 @@
   <meta property="og:description" content="The official website of the Seattle Conlang Club" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://conlang.club/" />
-  <meta property="og:image" content="{{ '/assets/images/sea-conlang-flag.png' | relative_url}}" />
+  <meta property="og:image" content="{{ '/assets/images/sea-conlang-flag.png' | absolute_url}}" />
 
-  <link rel="shortcut icon" type="image/jpg" href="{{ '/assets/images/favicon.png' | relative_url }}"/>
+  <link rel="shortcut icon" type="image/jpg" href="{{ '/assets/images/favicon.png' | absolute_url }}"/>
 
   {% if page.description %}
     <meta name="description" content="{{ page.description }}">
   {% endif %}
 
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
   <title>{{ page.title }} - Seattle Conlang Club</title>
 </head>
 <body>
