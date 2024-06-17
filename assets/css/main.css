@@ -14,7 +14,7 @@
 @tailwind utilities;
 
 .jumbotron {
-  background-image: url("../images/sea-conlang-flag.svg");
+  background-image: url("{{ 'assets/images/sea-conlang-flag.svg' | absolute_url }}");
   background-repeat: no-repeat;
   background-position: center bottom -3.4rem;
   background-size: auto 14rem;
