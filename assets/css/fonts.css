@@ -1,0 +1,19 @@
+@font-face {
+  font-family: sektale;
+  src: url(/assets/fonts/sektale.otf);
+  size-adjust: 170%;
+}
+
+.font-sektale {
+  font-family: sektale, sans-serif;
+}
+
+@font-face {
+  font-family: constructium;
+  src: url(/assets/fonts/constructium.ttf);
+  size-adjust: 130%;
+}
+
+.font-constructium {
+  font-family: constructium, sans-serif;
+}
