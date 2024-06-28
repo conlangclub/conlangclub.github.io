@@ -2,16 +2,18 @@
   <div class="jumbotron text-white text-center bg-conlangteal py-5 text-shadow shadow-black">
     <h1 class="font-bold text-6xl mb-3"><a class="text-white hover:text-blue-100 visited:text-white no-underline" href="{{ '/' | relative_url }}">Seattle Conlang Club</a></h1>
 
-    <div class="enable-animation w-[40rem] mx-auto">
-      <div class="marquee marquee--fit-content marquee--pos-absolute marquee--hover-pause">
-        <ul class="marquee__content">
-          {% include hello-marquee.html %}
-        </ul>
-        <ul aria-hidden="true" class="marquee__content">
-          {% include hello-marquee.html %}
-        </ul>
+    <a href="/featured-conlangs.html#site-header" class="text-white visited:text-white hover:text-white no-underline">
+      <div class="enable-animation w-[40rem] mx-auto">
+        <div class="marquee marquee--fit-content marquee--pos-absolute marquee--hover-pause">
+          <ul class="marquee__content">
+            {% include hello-marquee.html %}
+          </ul>
+          <ul aria-hidden="true" class="marquee__content">
+            {% include hello-marquee.html %}
+          </ul>
+        </div>
       </div>
-    </div>
+    </a>
 
   </div>
   {% include navbar.html %}
