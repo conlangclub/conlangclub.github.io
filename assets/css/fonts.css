@@ -17,3 +17,13 @@
 .font-constructium {
   font-family: constructium, sans-serif;
 }
+
+@font-face {
+  font-family: hamnosys;
+  src: url(/assets/fonts/hamnosys.woff2);
+  size-adjust: 130%;
+}
+
+.font-hamnosys {
+  font-family: hamnosys, sans-serif;
+}
