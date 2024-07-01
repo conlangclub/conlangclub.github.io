@@ -6,8 +6,8 @@ description: Information about the Seattle Conlang Club Zine, a conlang zine mad
 <h2 class="mb-0">Seattle Conlang Club Zine</h2>
 <p class="lead">The Seattle Conlang Club is making its first zine! It will feature Conlang-related articles and art from our very own members.</p>
 
-<figure class="fig-float-end gap-5">
-    <a href="{{ '/assets/images/zine-1.png' | absolute_url }}"><img src="{{ '/assets/images/zine-1.webp' | absolute_url }}" alt="The proposed cover of issue #1 of the SCC Zine" class="h-96"></a>
+<figure class="fig-float-end gap-5 mt-0">
+    <a href="{{ '/assets/images/zine-1.png' | absolute_url }}"><img src="{{ '/assets/images/zine-1.webp' | absolute_url }}" alt="The proposed cover of issue #1 of the SCC Zine" class="h-96 mt-0"></a>
 </figure>
 
 * [Submission guidelines](#submission-guidelines)
