@@ -4,6 +4,10 @@ domain: conlang.club
 url: https://conlang.club
 baseurl: ""
 
+collections:
+    crossword:
+        output: true
+
 plugins:
     - jekyll-postcss
 

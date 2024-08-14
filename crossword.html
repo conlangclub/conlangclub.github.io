@@ -1,0 +1,20 @@
+---
+title: Crosswords
+layout: default
+---
+<main class="container">
+  <header class="text-center">
+    <h2>Crosswords</h2>
+    <p class="lead">These are conlang-related crosswords created by our members</p>
+  </header>
+
+  <li class="list-none">
+    {% for crossword in site.crossword %}
+      <h3 class="text-xl font-bold">
+        <a href="{{ crossword.url | absolute_url }}">{{ crossword.title }}</a>
+        by {{ crossword.author }}
+      </h3>
+      {{ crossword.description }}
+    {% endfor %}
+  </li>
+</main>
