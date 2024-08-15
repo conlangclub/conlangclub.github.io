@@ -20,7 +20,7 @@ description: Pidgin Island Quest is the Seattle Conlang Club's tabletop roleplay
 </nav>
 
 ### What's this?
-Pidgin Island Quest is a text-based (mostly) survival role-playing game played on our Discord where players have to form a pidgin to communicate with the other players. Each week, the DM rotates between the players, who controls the island and makes up scenarios for the players to react to.
+Pidgin Island Quest is a text-based <span class="muted">(mostly)</span>, survival role-playing game played on our Discord where players have to form a pidgin to communicate with the other players. Each week, the DM rotates between the players, who controls the island and makes up scenarios for the players to react to.
 
 #### Scenario
 A band of feral transient mountainfolk (you) have been kidnapped in their sleep on a big tropical island with wildlife for some unknown purpose. Create and elevate your new shared culture and survive by creating a pidgin language together.
