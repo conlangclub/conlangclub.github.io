@@ -2,8 +2,16 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   content: [
-    './**/[!site]*/*.html',
-    './**/[!site]*/*.md',
+    './_drafts/**/*.html',
+    './_includes/**/*.html',
+    './_layouts/**/*.html',
+    './_posts/*.md',
+    './_pidgin/**/*.html',
+    './_pidgin/**/*.md',
+    './_crossword/**/*.html',
+    './_crossword/**/*.nd',
+    './*.md',
+    './*.html',
   ],
   theme: {
     extend: {
