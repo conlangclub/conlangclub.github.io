@@ -16,6 +16,9 @@ module.exports = {
             'code::after': {
               content: '""',
             },
+            blockquote: {
+              quotes: 'none',
+            }
           },
         },
       },
