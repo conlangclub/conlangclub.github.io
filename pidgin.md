@@ -3,7 +3,7 @@ title: Pidgin Island Quest
 layout: prose
 description: Pidgin Island Quest is the Seattle Conlang Club's tabletop roleplaying game/pidgin creation game.
 ---
-<h2 class="mb-0">Seattle Conlang Club Zine</h2>
+<h2 class="mb-0">Pidgin Island Quest</h2>
 <p class="lead">Pidgin Island Quest is the Seattle Conlang Club's tabletop roleplaying game/pidgin creation game.</p>
 
 <nav class="md:float-left bg-white pe-3" markdown=1>
