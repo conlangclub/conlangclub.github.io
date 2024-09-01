@@ -1,0 +1,3 @@
+[submodule "assets/pidgin-island-quest-data"]
+	path = assets/pidgin-island-quest-data
+	url = https://github.com/conlangclub/pidgin-island-quest-data

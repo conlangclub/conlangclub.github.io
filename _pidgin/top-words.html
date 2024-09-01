@@ -42,7 +42,7 @@ description: Each bar represents the cumulative number of times anyone has used 
     height = 800 - margin.top - margin.bottom
 
     async function init () {
-      const weeklyWordCsv = await (await fetch( "{{'/assets/pidgin-data/weekly_word_stats.csv' | absolute_url}}" )).text()
+      const weeklyWordCsv = await (await fetch( "{{'/assets/pidgin-island-quest-data/weekly_word_stats.csv' | absolute_url}}" )).text()
       const weeklyWordStats = d3.csvParse(weeklyWordCsv, d3.autoType)
       document.getElementById('maxWeek').addEventListener('input', (e) => {
         updateChart(weeklyWordStats, parseInt(e.target.value))
