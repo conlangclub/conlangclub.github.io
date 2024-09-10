@@ -9,6 +9,8 @@ collections:
         output: true
     pidgin:
         output: true
+    zine:
+        output: true
 
 plugins:
     - jekyll-postcss
