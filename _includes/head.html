@@ -10,7 +10,11 @@
 {% endif %}
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://conlang.club/" />
-<meta property="og:image" content="{{ '/assets/images/sea-conlang-flag.png' | absolute_url}}" />
+{% if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url}}" />
+{% else %}
+  <meta property="og:image" content="{{ '/assets/images/sea-conlang-flag.png' | absolute_url}}" />
+{% endif %}
 
 <link rel="shortcut icon" type="image/jpg" href="{{ '/assets/images/favicon.png' | absolute_url }}"/>
 
