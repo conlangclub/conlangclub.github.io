@@ -21,14 +21,6 @@
   @apply mb-3;
 }
 
-.page-index #club-projects > section {
-  @apply mb-5;
-}
-
-.page-index #club-projects > section > header {
-  @apply mb-3;
-}
-
 .page-index ul {
   list-style: disc;
   @apply pl-8;
