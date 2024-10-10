@@ -6,6 +6,8 @@ description: Pidgin Island Quest is the Seattle Conlang Club's tabletop roleplay
 <h2 class="mb-0">Pidgin Island Quest</h2>
 <p class="lead">Pidgin Island Quest is the Seattle Conlang Club's tabletop roleplaying game/pidgin creation game.</p>
 
+<div class="border border-yellow-300 bg-yellow-100 rounded p-3">Pidgin Island Quest has ended! We are currently working on the next season of the SCC Pidgin games. Please join the <code>#pidgin-meta</code> channel on Discord to join the discussion!</div>
+
 <nav class="md:float-left bg-white pe-5" markdown=1>
 
 * [What's this?](#whats-this)
