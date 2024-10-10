@@ -15,8 +15,7 @@ description: Submission guidelines and formatting help for the Seattle Conlang C
 * When you submit an article, please submit it in `#club-zine` in the Discord and ping `@Zine submission`.
     - If you don't, your submission may be missed.
 * All members may submit one or more zine articles.
-* Your submission **must** be a PDF file where the page layout is 5.5 x 8.5 in.
-    - You are strongly encouraged to submit the source files (e.g. OTF, DOC(X), TEX files) so the editors can fix problems if needed.
+* Your submission **must** be a PDF file **and** any source files (e.g. OTF, DOC(X), TEX files), where the page layout is 5.5 x 8.5 in.
 * Your outer page margins should be half inch (1/2 in), unless you have a good reason otherwise, in which case it **must** be **at least** a quarter inch (1/4 in).
     - See [§Setting Page Settings](#setting-page-settings) for info on how to set your page settings
 * The following fonts and sizes are strongly recommended, unless you have a good reason to use different ones:
