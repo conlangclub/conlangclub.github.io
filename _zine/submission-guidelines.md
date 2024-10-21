@@ -3,7 +3,7 @@ title: SCC Zine Submission Guidelines
 layout: prose
 description: Submission guidelines and formatting help for the Seattle Conlang Club Zine.
 ---
-<nav class="mb-0"><a href="/zine.html">← Back to Zine home</a></nav>
+<nav class="mb-0"><a href="/zine">← Back to Zine home</a></nav>
 <h2 class="mb-0 mt-0">SCC Zine Submission Guidelines</h2>
 <p class="lead">If you're submitting to the SCC Zine, please make sure to follow these guidelines so your submission can be included!</p>
 
