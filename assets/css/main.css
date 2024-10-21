@@ -56,6 +56,11 @@ h3 {
   @apply font-encodesans;
 }
 
+h4 {
+  @apply text-2xl;
+  @apply font-encodesans;
+}
+
 .fig-float-end {
   @apply lg:float-end;
   @apply flex;

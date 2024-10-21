@@ -1,7 +1,11 @@
-.page-projects #club-projects > section {
+.page-projects #club-projects > section,
+.page-projects #current-projects > section
+{
   @apply mb-5;
 }
 
-.page-projects #club-projects > section > header {
+.page-projects #club-projects > section > header
+.page-projects #current-projects > section > header
+{
   @apply mb-3;
 }
