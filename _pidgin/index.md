@@ -28,6 +28,7 @@ New players can join at any time. The only prerequisite for joining is that you 
 1. Any new words you create must be made up, either on the fly or ahead of time, but try to existing words in the pidgin if possible.
 1. We will come together at the end of every session to document the state of the language.
 1. You should converse with the pidgin outside of the synchronous sessions
+1. (Optional) think of a language feature you want to introduce to the pidgin, but keep is secret. Try to make other people use your language feature.
 
 ### FAQ
 #### How is it possible to communicate with anybody if we can't use natural languages or common conlangs?
