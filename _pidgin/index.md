@@ -27,6 +27,7 @@ New players can join at any time. The only prerequisite for joining is that you 
 1. You may not use any pre-existing language (e.g. English, Esperanto) when communicating ideas in our Minecraft world or in the #pidgin-speaking channel
 1. Any new words you create must be made up, either on the fly or ahead of time, but try to existing words in the pidgin if possible.
 1. We will come together at the end of every session to document the state of the language.
+1. You should converse with the pidgin outside of the synchronous sessions
 
 ### FAQ
 #### How is it possible to communicate with anybody if we can't use natural languages or common conlangs?
