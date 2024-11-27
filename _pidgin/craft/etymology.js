@@ -155,7 +155,7 @@ function forceGraph(data, iconImages) {
         d.source.y,
         d.target.x,
         d.target.y,
-        d.source.icon ? 20 : 0,
+        d.source.icon ? 20 : 8,
         d.target.icon ? 20 : 8
       );
       ctx.stroke();
