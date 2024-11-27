@@ -55,33 +55,9 @@ description: A graph of PidginCraft word etymologies
       display: flex;
       justify-content: space-between;
     }
-
-    #loading-modal {
-      position: absolute;
-      height: 100vh;
-      width: 100vw;
-      background-color: rgba(0,0,0,0.75);
-      z-index: 999;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    #modal-content {
-      background-color: white;
-      padding: 1rem;
-      border-radius: .25rem;
-      box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    }
   </style>
 </head>
 <body>
-  <div id="loading-modal">
-    <div id="modal-content">
-      <p>Loading resources... <span id="load-percent"></span>%</p>
-    </div>
-  </div>
-
   <aside id="info">
     <h1>{{page.title}}</h1>
     <p>Arrows point from etymological roots to words derived from those roots.</p>

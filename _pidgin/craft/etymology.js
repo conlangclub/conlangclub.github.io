@@ -1,41 +1,24 @@
 ---
 ---
-const ICON_BASE_URL = "https://fredchan.org/mc-invicons/invicon/";
+const SPRITE_SHEET_URL = "{{ '/assets/pidgincraft-data/spritesheet.png' | absolute_url }}";
 const canvas = document.getElementById('graph');
 
 async function init() {
-  const data = await (await fetch( "{{'/assets/pidgincraft-data/graph.json' | absolute_url}}" )).json();
-  const iconImages = await fetchIconImages(data['nodes']);
+  const data = await (await fetch( "{{ '/assets/pidgincraft-data/graph.json' | absolute_url }}" )).json();
+  // const iconImages = await fetchIconImages(data['nodes']);
+  const spriteSheet = await (new Promise(resolve => {
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.src = SPRITE_SHEET_URL;
+  }));
 
-  forceGraph(data, iconImages);
+  forceGraph(data, spriteSheet);
   window.addEventListener('resize', e => {
-    forceGraph(data, iconImages);
+    forceGraph(data, spriteSheet);
   });
 }
 
-async function fetchIconImages(nodes) {
-  const iconImages = {};
-
-  const progress = document.getElementById('load-percent');
-  const modal = document.getElementById('loading-modal');
-
-  for (let [i, node] of nodes.entries()) {
-    if (node.icon !== undefined && !(node.icon in iconImages)) {
-      const image = await (new Promise(resolve => {
-        const image = new Image();
-        image.onload = () => resolve(image);
-        image.src = ICON_BASE_URL + node.icon;
-      }));
-      iconImages[node.icon] = image;
-    }
-    progress.textContent = Math.round(i / nodes.length * 100);
-  }
-
-  modal.remove();
-  return iconImages
-}
-
-function forceGraph(data, iconImages) {
+function forceGraph(data, spriteSheet) {
   canvas.width = canvas.clientWidth;
   canvas.height = canvas.clientHeight;
 
@@ -173,11 +156,10 @@ function forceGraph(data, iconImages) {
       if (d.icon === undefined) {
         ctx.arc(d.x, d.y, nodeRadius, 0, 2 * Math.PI);
       } else {
-        const icon = iconImages[d.icon];
         ctx.drawImage(
-          icon,
-          0, 0,
-          icon.width, icon.height,
+          spriteSheet,
+          d.icon * 32, 0,
+          32, 32,
           d.x - 16, d.y - 16,
           32, 32
         );
