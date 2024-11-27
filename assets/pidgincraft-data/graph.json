@@ -446,9 +446,7 @@
       "id": "asa",
       "def": "paper",
       "sessionDocumented": "10/29",
-      "etymologicalRoots": [
-        "asu"
-      ],
+      "etymologicalRoots": [],
       "icon": "Invicon_Paper.png"
     },
     {
@@ -752,7 +750,9 @@
       "id": "asu",
       "def": "sugar",
       "sessionDocumented": "11/12",
-      "etymologicalRoots": [],
+      "etymologicalRoots": [
+        "asa"
+      ],
       "icon": "Invicon_Sugar.png"
     },
     {
@@ -1227,10 +1227,6 @@
       "target": "giro tisa"
     },
     {
-      "source": "asu",
-      "target": "asa"
-    },
-    {
       "source": "lorg",
       "target": "erg lorg"
     },
@@ -1385,6 +1381,10 @@
     {
       "source": "baa",
       "target": "baasa"
+    },
+    {
+      "source": "asa",
+      "target": "asu"
     },
     {
       "source": "asu",
