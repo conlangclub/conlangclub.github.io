@@ -1,17 +1,36 @@
 ---
 ---
+const ICON_BASE_URL = "{{'/assets/pidgincraft-data/invicon/' | absolute_url}}";
 const canvas = document.getElementById('graph');
 
 async function init() {
-  let data = await (await fetch( "{{'/assets/pidgincraft-data/etymology-graph.json' | absolute_url}}" )).json();
+  const data = await (await fetch( "{{'/assets/pidgincraft-data/etymology-graph.json' | absolute_url}}" )).json();
+  const iconImages = await fetchIconImages(data['nodes']);
 
-  forceGraph(data);
+  forceGraph(data, iconImages);
   window.addEventListener('resize', e => {
-    forceGraph(data);
+    forceGraph(data, iconImages);
   });
 }
 
-function forceGraph(data) {
+async function fetchIconImages(nodes) {
+  const iconImages = {};
+
+  for (let node of nodes) {
+    if (node.icon !== undefined && !(node.icon in iconImages)) {
+      const image = await (new Promise(resolve => {
+        const image = new Image();
+        image.onload = () => resolve(image);
+        image.src = ICON_BASE_URL + node.icon;
+      }));
+      iconImages[node.icon] = image;
+    }
+  }
+
+  return iconImages
+}
+
+function forceGraph(data, iconImages) {
   canvas.width = canvas.clientWidth;
   canvas.height = canvas.clientHeight;
 
@@ -23,6 +42,7 @@ function forceGraph(data) {
         nodeRadius = 5;
 
   const ctx = canvas.getContext('2d');
+  ctx.imageSmoothingEnabled = false;
 
   const simulation = forceSimulation(width, height);
   let transform = d3.zoomIdentity;
@@ -107,7 +127,18 @@ function forceGraph(data) {
       ctx.beginPath();
       // Node fill
       ctx.moveTo(d.x + nodeRadius, d.y);
-      ctx.arc(d.x, d.y, nodeRadius, 0, 2 * Math.PI);
+      if (d.icon === undefined) {
+        ctx.arc(d.x, d.y, nodeRadius, 0, 2 * Math.PI);
+      } else {
+        const icon = iconImages[d.icon];
+        ctx.drawImage(
+          icon,
+          0, 0,
+          icon.width, icon.height,
+          d.x - 16, d.y - 16,
+          32, 32
+        );
+      }
       ctx.fillStyle = colorNode(d);
       ctx.fill();
       // Node outline
@@ -115,7 +146,12 @@ function forceGraph(data) {
       ctx.lineWidth = '1.5'
       ctx.stroke();
       // Node label
-      ctx.fillText(d.id, d.x + 5, d.y)
+      ctx.textAlign = "center";
+      if (d.icon) {
+        ctx.fillText(d.id, d.x, d.y + 24);
+      } else {
+        ctx.fillText(d.id, d.x, d.y + 16);
+      }
     });
     ctx.restore();
   }
@@ -124,7 +160,7 @@ function forceGraph(data) {
 }
 
 function findNode(nodes, x, y, radius) {
-  const rSq = radius * radius;
+  const rSq = 16 * 16;
   let i;
   for (i = nodes.length - 1; i >= 0; --i) {
     const node = nodes[i],
@@ -148,10 +184,10 @@ function colorNode(d) {
 function forceSimulation(width, height) {
   return d3.forceSimulation()
     .force("center", d3.forceCenter(width / 2, height / 2))
-    .force("charge", d3.forceManyBody().strength(-20))
-    .force("link", d3.forceLink().id(d => d.id))
-    .force("positionX", d3.forceX(width/2).strength(.03))
-    .force("positionY", d3.forceY(height/2).strength(.03));
+    .force("charge", d3.forceManyBody().strength(-50))
+    .force("link", d3.forceLink().id(d => d.id).strength(.2))
+    .force("positionX", d3.forceX(width/2).strength(.02))
+    .force("positionY", d3.forceY(height/2).strength(.02));
 }
 
 init();
