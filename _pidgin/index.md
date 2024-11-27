@@ -24,10 +24,10 @@ PidginCraft happens **every Tuesday at 6 PM** Pacific time, starting October 22,
 New players can join at any time. The only prerequisite for joining is that you own Minecraft. After that you can attend our weekly Minecraft sessions in the [SCC Discord](/discord) and try to make yourself understood in a common pidgin language.
 
 ### Rules
-1. You may not use any pre-existing language (e.g. English, Esperanto) when communicating ideas in our Minecraft world or in the #pidgin-speaking channel
+1. You may not use any pre-existing language (e.g. English, Esperanto) when communicating ideas in our Minecraft world or in the pidgin Discord channel.
 1. Any new words you create must be made up, either on the fly or ahead of time, but try to existing words in the pidgin if possible.
 1. We will come together at the end of every session to document the state of the language.
-1. You should converse with the pidgin outside of the synchronous sessions
+1. You should avoid conversing with the pidgin outside of the synchronous sessions.
 1. (Optional) think of a language feature you want to introduce to the pidgin, but keep is secret. Try to make other people use your language feature.
 
 ### FAQ
@@ -41,10 +41,10 @@ One strategy is to come up with some words without meaning before a Minecraft se
 No, there is no such expectation. Regularly attending meetings will help you practice your pidgin language skills, but you can also read the periodically released grammar write-ups/vocab lists to catch up.
 
 #### Other players seem to be able to understand each other a bit, but I am completely lost. How can I catch up?
-Read the periodically released grammar write-ups/vocab lists
+Read the periodically released grammar write-ups/vocab lists.
 
 #### I can't find what I am looking for in the grammar write-up/vocab list, what do I do?
 Words and phrases only get added to the vocab list/grammar write-up after they've been used a few times. In that case, you can just invent a new word or grammar rule (or take one from your personal conlang).
 
 #### I want to invent a new word for something, but I think someone else already made a word for it. What should I do?
-If you can not find a word in the vocab list, it is perfectly acceptable to invent a new word for something, even if you think someone else has already made a word for it. Even if you can find a word in the vocab list, the pidgin language is fluid and evolving and the meaning of words may change overtime, so it may be necessary to re-invent a word for some idea.
+If you can not find a word in the vocab list, it is perfectly acceptable to invent a new word for something, even if you think someone else has already made a word for it. Even if you can find a word in the vocab list, the pidgin language is fluid and evolving and the meaning of words may change over time, so it may be necessary to re-invent a word for some idea.
