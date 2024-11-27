@@ -113,15 +113,6 @@ function forceGraph(data, iconImages) {
     ctx.clearRect(0, 0, width, height);
     ctx.translate(transform.x, transform.y);
     ctx.scale(transform.k, transform.k);
-    // Draw edges
-    edges.forEach(function(d) {
-      ctx.beginPath();
-      ctx.moveTo(d.source.x, d.source.y);
-      ctx.lineTo(d.target.x, d.target.y);
-      ctx.lineWidth = Math.sqrt(d.value);
-      ctx.strokeStyle = '#aaa';
-      ctx.stroke();
-    });
     // Draw nodes
     nodes.forEach(function(d, i) {
       ctx.beginPath();
@@ -153,10 +144,47 @@ function forceGraph(data, iconImages) {
         ctx.fillText(d.id, d.x, d.y + 16);
       }
     });
+    // Draw edges
+    edges.forEach(function(d) {
+      ctx.beginPath();
+      ctx.strokeStyle = '#00000077';
+      ctx.lineWidth = 1.5;
+      drawArrow(
+        ctx,
+        d.source.x,
+        d.source.y,
+        d.target.x,
+        d.target.y,
+        d.source.icon ? 20 : 0,
+        d.target.icon ? 20 : 8
+      );
+      ctx.stroke();
+    });
     ctx.restore();
   }
 
   return canvas;
+}
+
+function drawArrow(ctx, fromX, fromY, toX, toY, fromMargin, toMargin) {
+  var headlen = 10; // length of head in pixels
+  var dx = toX - fromX;
+  var dy = toY - fromY;
+  var angle = Math.atan2(dy, dx);
+
+  toX -= toMargin*Math.cos(angle);
+  toY -= toMargin*Math.sin(angle);
+
+  fromX += fromMargin*Math.cos(angle)
+  fromY += fromMargin*Math.sin(angle)
+
+  ctx.lineCap = 'round';
+  ctx.moveTo(fromX, fromY);
+  ctx.lineTo(toX, toY);
+  ctx.moveTo(toX, toY);
+  ctx.lineTo(toX - headlen * Math.cos(angle - Math.PI / 6), toY - headlen * Math.sin(angle - Math.PI / 6));
+  ctx.moveTo(toX, toY);
+  ctx.lineTo(toX - headlen * Math.cos(angle + Math.PI / 6), toY - headlen * Math.sin(angle + Math.PI / 6));
 }
 
 function findNode(nodes, x, y, radius) {
@@ -184,10 +212,11 @@ function colorNode(d) {
 function forceSimulation(width, height) {
   return d3.forceSimulation()
     .force("center", d3.forceCenter(width / 2, height / 2))
-    .force("charge", d3.forceManyBody().strength(-50))
+    .force("charge", d3.forceManyBody().strength(-80))
     .force("link", d3.forceLink().id(d => d.id).strength(.2))
     .force("positionX", d3.forceX(width/2).strength(.02))
-    .force("positionY", d3.forceY(height/2).strength(.02));
+    .force("positionY", d3.forceY(height/2).strength(.02))
+    .force("collide", d3.forceCollide(d => 32));
 }
 
 init();
