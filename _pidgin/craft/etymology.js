@@ -62,7 +62,31 @@ function forceGraph(data, iconImages) {
           .on('end', dragEnded))
     .call(d3.zoom()
           .scaleExtent([1 / 10, 8])
-          .on('zoom', zoomed));
+          .on('zoom', zoomed))
+    .on('mousemove', showTooltip);
+
+  function showTooltip() {
+    // const hoveredNode = dragSubject();
+    const x = transform.invertX(d3.event.x);
+    const y = transform.invertY(d3.event.y);
+    const hoveredNode = findNode(nodes, x, y, nodeRadius);
+
+    const tooltip = document.getElementById('tooltip');
+  
+    if (hoveredNode === undefined) {
+      tooltip.style.display = 'none';
+      return;
+    }
+  
+    tooltip.style.display = 'block';
+    tooltip.style.left = d3.event.x + 10 + 'px';
+    tooltip.style.top = d3.event.y + 10 + 'px';
+  
+    document.getElementById('tooltip-word').textContent = hoveredNode.id;
+    document.getElementById('tooltip-session-documented').textContent = hoveredNode.sessionDocumented;
+    document.getElementById('tooltip-etymological-roots').textContent = hoveredNode.etymologicalRoots.join(', ');
+    document.getElementById('tooltip-def').textContent = hoveredNode.def;
+  }
 
   simulation.nodes(nodes)
     .on("tick",simulationUpdate);

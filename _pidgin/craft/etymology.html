@@ -14,11 +14,11 @@ description: A graph of PidginCraft word etymologies
     body {
       margin: 0;
       overflow: hidden;
+      font-family: "Encode Sans";
     }
 
-    aside {
+    #info {
       position: absolute;
-      font-family: "Encode Sans";
       padding: 1rem 2rem;
       background-color: rgba(255, 255, 255, .8);
     }
@@ -27,15 +27,63 @@ description: A graph of PidginCraft word etymologies
       width: 100vw;
       height: 100vh;
     }
+
+    #tooltip {
+      position: absolute;
+      border-radius: .25rem;
+      background-color: white;
+      padding: .5rem .8rem;
+      box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+      font-size: small;
+    }
+
+    #tooltip h2 {
+      margin: 0;
+    }
+
+    dt {
+      font-weight: bold;
+      margin-right: 1rem;
+    }
+
+    dl {
+      margin-bottom: 0;
+    }
+
+    .tooltip-field {
+      margin-bottom: .25rem;
+      display: flex;
+      justify-content: space-between;
+    }
   </style>
 </head>
 <body>
 
-  <aside>
+  <aside id="info">
     <h1>{{page.title}}</h1>
     <p>Grayed-out words lack a widely accepted definition among players.</p>
     <p>Arrows point from etymological roots to words derived from those roots.</p>
     <p>You can pan around with left-click and zoom with the scrollwheel.</p>
+  </aside>
+
+  <aside id="tooltip">
+    <h2 id="tooltip-word"></h2>
+    <dl>
+      <div class="tooltip-field">
+        <dt>First attested</dt>
+        <dl id="tooltip-session-documented"></dl>
+      </div>
+
+      <div class="tooltip-field">
+        <dt>Etymological roots</dt>
+        <dl id="tooltip-etymological-roots"></dl>
+      </div>
+
+      <div class="tooltip-field">
+        <dt>Definition</dt>
+        <dl id="tooltip-def"></dl>
+      </div>
+    </dl>
   </aside>
 
   <canvas id="graph"></canvas>
