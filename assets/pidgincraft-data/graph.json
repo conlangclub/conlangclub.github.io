@@ -247,7 +247,8 @@
       "etymologicalRoots": [
         "giro",
         "opa"
-      ]
+      ],
+      "icon": "Invicon_Stone_Axe.png"
     },
     {
       "id": "giro-crete-gilon",
@@ -266,7 +267,8 @@
       "etymologicalRoots": [
         "giro",
         "crete"
-      ]
+      ],
+      "icon": "Invicon_Stone_Hoe.png"
     },
     {
       "id": "boga",
@@ -1072,7 +1074,10 @@
       "id": "rucha bila",
       "def": "lectern",
       "sessionDocumented": "11/26",
-      "etymologicalRoots": [],
+      "etymologicalRoots": [
+        "rucha",
+        "bila"
+      ],
       "icon": "Invicon_Lectern.png"
     },
     {
@@ -1516,6 +1521,14 @@
     {
       "source": "goye",
       "target": "piragoye"
+    },
+    {
+      "source": "rucha",
+      "target": "rucha bila"
+    },
+    {
+      "source": "bila",
+      "target": "rucha bila"
     },
     {
       "source": "gilon",
