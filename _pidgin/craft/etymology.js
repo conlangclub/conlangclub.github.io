@@ -113,6 +113,24 @@ function forceGraph(data, iconImages) {
     ctx.clearRect(0, 0, width, height);
     ctx.translate(transform.x, transform.y);
     ctx.scale(transform.k, transform.k);
+
+    // Draw edges
+    edges.forEach(function(d) {
+      ctx.beginPath();
+      ctx.strokeStyle = '#00000077';
+      ctx.lineWidth = 1.5;
+      drawArrow(
+        ctx,
+        d.source.x,
+        d.source.y,
+        d.target.x,
+        d.target.y,
+        d.source.icon ? 24 : 12,
+        d.target.icon ? 24 : 12
+      );
+      ctx.stroke();
+    });
+
     // Draw nodes
     nodes.forEach(function(d, i) {
       ctx.beginPath();
@@ -132,33 +150,23 @@ function forceGraph(data, iconImages) {
       }
       ctx.fillStyle = colorNode(d);
       ctx.fill();
+
       // Node outline
       ctx.strokeStyle = '#fff'
       ctx.lineWidth = '1.5'
       ctx.stroke();
+
       // Node label
-      ctx.textAlign = "center";
+      ctx.textAlign = 'center';
+      ctx.strokeStyle = 'white';
+      ctx.fillStyle = 'black';
       if (d.icon) {
+        ctx.strokeText(d.id, d.x, d.y + 24);
         ctx.fillText(d.id, d.x, d.y + 24);
       } else {
+        ctx.strokeText(d.id, d.x, d.y + 16);
         ctx.fillText(d.id, d.x, d.y + 16);
       }
-    });
-    // Draw edges
-    edges.forEach(function(d) {
-      ctx.beginPath();
-      ctx.strokeStyle = '#00000077';
-      ctx.lineWidth = 1.5;
-      drawArrow(
-        ctx,
-        d.source.x,
-        d.source.y,
-        d.target.x,
-        d.target.y,
-        d.source.icon ? 20 : 8,
-        d.target.icon ? 20 : 8
-      );
-      ctx.stroke();
     });
     ctx.restore();
   }
