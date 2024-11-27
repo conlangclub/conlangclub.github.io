@@ -88,9 +88,14 @@ function forceGraph(data, iconImages) {
     tooltip.style.top = d3.event.y + 10 + 'px';
   
     document.getElementById('tooltip-word').textContent = hoveredNode.id;
-    document.getElementById('tooltip-session-documented').textContent = hoveredNode.sessionDocumented;
-    document.getElementById('tooltip-etymological-roots').textContent = hoveredNode.etymologicalRoots.join(', ');
-    document.getElementById('tooltip-def').textContent = hoveredNode.def;
+
+    document.getElementById('tooltip-session-documented').textContent = hoveredNode.sessionDocumented || '';
+    if (hoveredNode.etymologicalRoots?.length > 0) {
+      document.getElementById('tooltip-etymological-roots').textContent = hoveredNode.etymologicalRoots.join(', ');
+    } else {
+      document.getElementById('tooltip-etymological-roots').textContent = '-';
+    }
+    document.getElementById('tooltip-def').textContent = hoveredNode.def || '?';
   }
 
   simulation.nodes(nodes)
