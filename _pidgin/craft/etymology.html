@@ -9,14 +9,18 @@ description: A graph of PidginCraft word etymologies
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{page.title}}</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       overflow: hidden;
     }
 
-    h1 {
+    aside {
       position: absolute;
+      font-family: "Encode Sans";
+      padding: 1rem 2rem;
+      background-color: rgba(255, 255, 255, .8);
     }
 
     #graph {
@@ -27,7 +31,11 @@ description: A graph of PidginCraft word etymologies
 </head>
 <body>
 
-  <h1>{{page.title}}</h1>
+  <aside>
+    <h1>{{page.title}}</h1>
+    <p>Greyed-out words have no widely accepted definition.</p>
+  </aside>
+
   <canvas id="graph"></canvas>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@5"></script>
