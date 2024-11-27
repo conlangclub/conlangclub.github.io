@@ -1,10 +1,36 @@
 ---
 title: PidginCraft etymology graph
-layout: default
 description: A graph of PidginCraft word etymologies
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{page.title}}</title>
 
-<canvas id="graph" width="1000" height="1000" style="border: 1px solid black"></canvas>
+  <style>
+    body {
+      margin: 0;
+    }
 
-<script src="https://cdn.jsdelivr.net/npm/d3@5"></script>
-<script src="etymology.js"></script>
+    h1 {
+      position: absolute;
+    }
+
+    #graph {
+      width: 100vw;
+      height: 100vh;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>{{page.title}}</h1>
+  <canvas id="graph"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@5"></script>
+  <script src="etymology.js"></script>
+</body>
+</html>

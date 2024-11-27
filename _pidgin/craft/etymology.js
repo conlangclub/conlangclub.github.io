@@ -1,15 +1,23 @@
 ---
 ---
 const CANVAS = document.getElementById('graph');
-const width = CANVAS.width;
-const height = CANVAS.height;
 
 async function init() {
-  let data = await (await fetch( "{{'/assets/pidgincraft-data/etymology-graph.json' | absolute_url}}" )).json()
+  let data = await (await fetch( "{{'/assets/pidgincraft-data/etymology-graph.json' | absolute_url}}" )).json();
+
   forceGraph(data);
+  window.addEventListener('resize', e => {
+    forceGraph(data);
+  });
 }
 
-forceGraph = (data) => {
+function forceGraph(data) {
+  CANVAS.width = CANVAS.clientWidth;
+  CANVAS.height = CANVAS.clientHeight;
+
+  const width = CANVAS.width;
+  const height = CANVAS.height;
+
   const w2 = width / 2,
         h2 = height / 2,
         nodeRadius = 5;
