@@ -1,10 +1,10 @@
 ---
 ---
-const ICON_BASE_URL = "{{'/assets/pidgincraft-data/invicon/' | absolute_url}}";
+const ICON_BASE_URL = "https://fredchan.org/mc-invicons/invicon/";
 const canvas = document.getElementById('graph');
 
 async function init() {
-  const data = await (await fetch( "{{'/assets/pidgincraft-data/etymology-graph.json' | absolute_url}}" )).json();
+  const data = await (await fetch( "{{'/assets/pidgincraft-data/graph.json' | absolute_url}}" )).json();
   const iconImages = await fetchIconImages(data['nodes']);
 
   forceGraph(data, iconImages);
@@ -16,7 +16,10 @@ async function init() {
 async function fetchIconImages(nodes) {
   const iconImages = {};
 
-  for (let node of nodes) {
+  const progress = document.getElementById('load-percent');
+  const modal = document.getElementById('loading-modal');
+
+  for (let [i, node] of nodes.entries()) {
     if (node.icon !== undefined && !(node.icon in iconImages)) {
       const image = await (new Promise(resolve => {
         const image = new Image();
@@ -25,8 +28,10 @@ async function fetchIconImages(nodes) {
       }));
       iconImages[node.icon] = image;
     }
+    progress.textContent = Math.round(i / nodes.length * 100);
   }
 
+  modal.remove();
   return iconImages
 }
 

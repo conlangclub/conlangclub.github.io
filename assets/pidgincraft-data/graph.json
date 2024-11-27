@@ -1,0 +1,1537 @@
+{
+  "nodes": [
+    {
+      "id": "dore",
+      "def": "place",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "za",
+      "def": "is, be, equal",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "brik",
+      "def": "break, attack, hit",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "mmm",
+      "def": "eat, edible",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "gola",
+      "def": "breed",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "ature",
+      "def": "give",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "opa",
+      "def": "wood, log, wooden; product",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Oak_Wood.png"
+    },
+    {
+      "id": "zawoo",
+      "def": "sign",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Oak_Sign.png"
+    },
+    {
+      "id": "ogi",
+      "def": "cow, beef, steak",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [],
+      "icon": "Invicon_MHF_Cow.png"
+    },
+    {
+      "id": "yele",
+      "def": "dirt",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Dirt.png"
+    },
+    {
+      "id": "opasa",
+      "def": "wood planks",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "opa"
+      ]
+    },
+    {
+      "id": "opasafi",
+      "def": "?",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "opasa"
+      ]
+    },
+    {
+      "id": "tiin",
+      "def": "chest, container",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Chest.png"
+    },
+    {
+      "id": "kooru",
+      "def": "?",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "kota",
+      "def": "crafting table, craft",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Crafting_Table.png"
+    },
+    {
+      "id": "eeoo",
+      "def": "one",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "doto",
+      "def": "two",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "weema",
+      "def": "three",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "dzomo",
+      "def": "barrel",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Barrel.png"
+    },
+    {
+      "id": "kigleko",
+      "def": "copper",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "leko"
+      ],
+      "icon": "Invicon_Raw_Copper.png"
+    },
+    {
+      "id": "leko",
+      "def": "stone, cobblestone",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Stone.png"
+    },
+    {
+      "id": "leg-leko",
+      "def": "coal",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "leko"
+      ],
+      "icon": "Invicon_Coal.png"
+    },
+    {
+      "id": "akezo",
+      "def": "furnace",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Furnace.png"
+    },
+    {
+      "id": "crete",
+      "def": "food",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "gilon",
+      "def": "sea, ocean, water",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Water_Bucket.png"
+    },
+    {
+      "id": "crete-gilon",
+      "def": "fish, cod, salmon",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "crete",
+        "gilon"
+      ],
+      "icon": "Invicon_Raw_Fish.png"
+    },
+    {
+      "id": "creteopa",
+      "def": "apple",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "crete",
+        "opa"
+      ],
+      "icon": "Invicon_Apple.png"
+    },
+    {
+      "id": "creteleko",
+      "def": "bread",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "crete",
+        "leko"
+      ],
+      "icon": "Invicon_Bread.png"
+    },
+    {
+      "id": "ani",
+      "def": "yes, good",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "lon",
+      "def": "no, bad",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "bi",
+      "def": "in, at, to",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "giro",
+      "def": "tool",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "losa",
+      "def": "cave",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "giro-leko",
+      "def": "pickaxe",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "giro",
+        "leko"
+      ],
+      "icon": "Invicon_Stone_Pickaxe.png"
+    },
+    {
+      "id": "giro-opa",
+      "def": "axe",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "giro",
+        "opa"
+      ]
+    },
+    {
+      "id": "giro-crete-gilon",
+      "def": "fishing rod",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "giro",
+        "crete-gilon"
+      ],
+      "icon": "Invicon_Fishing_Rod.png"
+    },
+    {
+      "id": "giro-crete",
+      "def": "hoe",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "giro",
+        "crete"
+      ]
+    },
+    {
+      "id": "boga",
+      "def": "house",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "topalere",
+      "def": "goal, task",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "bogaga",
+      "def": "?",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": [
+        "boga"
+      ]
+    },
+    {
+      "id": "lorg",
+      "def": "phantom (the enemy), hostile mob",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "sil",
+      "def": "what?",
+      "sessionDocumented": "10/22",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "cura",
+      "def": "have",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "tans",
+      "def": "not have, lack, want",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "mor",
+      "def": "person",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "cliclik",
+      "def": "skeleton, bone",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [],
+      "icon": "Invicon_MHF_Skeleton.png"
+    },
+    {
+      "id": "lonabrik",
+      "def": "?",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "brik"
+      ]
+    },
+    {
+      "id": "pickle",
+      "def": "?",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "lekoleko",
+      "def": "iron",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "leko"
+      ],
+      "icon": "Invicon_Raw_Iron.png"
+    },
+    {
+      "id": "i",
+      "def": "and",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "goye",
+      "def": "torch",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Torch.png"
+    },
+    {
+      "id": "ida",
+      "def": "up",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "dana",
+      "def": "down",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "ayare",
+      "def": "?",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "lecheko",
+      "def": "leaves",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Oak_Leaves.png"
+    },
+    {
+      "id": "kule",
+      "def": "?",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "awakal",
+      "def": "bridge",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "fredleko",
+      "def": "diamond",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "fred",
+        "leko"
+      ],
+      "icon": "Invicon_Diamond.png"
+    },
+    {
+      "id": "tisa",
+      "def": "fire",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "tisagilon",
+      "def": "lava",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "tisa",
+        "gilon"
+      ],
+      "icon": "Invicon_Lava_Bucket.png"
+    },
+    {
+      "id": "giro tisa",
+      "def": "flint and steel",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "giro",
+        "tisa"
+      ],
+      "icon": "Invicon_Flint_and_Steel.png"
+    },
+    {
+      "id": "iia",
+      "def": "see, understand",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "asa",
+      "def": "paper",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "asu"
+      ],
+      "icon": "Invicon_Paper.png"
+    },
+    {
+      "id": "erg lorg",
+      "def": "?",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "lorg"
+      ]
+    },
+    {
+      "id": "dana leko",
+      "def": "deepslate",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "dana",
+        "leko"
+      ],
+      "icon": "Invicon_Deepslate.png"
+    },
+    {
+      "id": "loganlorg",
+      "def": "minecart, minecart rail, rail",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "logan",
+        "lorg"
+      ],
+      "icon": "Invicon_Minecart.png"
+    },
+    {
+      "id": "kras",
+      "def": "pig",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [],
+      "icon": "Invicon_MHF_Pig.png"
+    },
+    {
+      "id": "bi sil",
+      "def": "where",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "bi",
+        "sil"
+      ]
+    },
+    {
+      "id": "sil mor",
+      "def": "who",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "sil",
+        "mor"
+      ]
+    },
+    {
+      "id": "lekolekoleko",
+      "def": "obsidian",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "leko"
+      ],
+      "icon": "Invicon_Obsidian.png"
+    },
+    {
+      "id": "lekosa",
+      "def": "smooth stone",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "leko"
+      ],
+      "icon": "Invicon_Smooth_Stone.png"
+    },
+    {
+      "id": "tisalorg",
+      "def": "creeper",
+      "sessionDocumented": "10/29",
+      "etymologicalRoots": [
+        "tisa",
+        "lorg"
+      ],
+      "icon": "Invicon_Creeper_Head.png"
+    },
+    {
+      "id": "gima",
+      "def": "dye, color",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "creteopagima",
+      "def": "red, red dye",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "creteopa",
+        "gima"
+      ],
+      "icon": "Invicon_Red_Dye.png"
+    },
+    {
+      "id": "cliclikgima",
+      "def": "white, white dye(?), bonemeal(?)",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "cliclik",
+        "gima"
+      ]
+    },
+    {
+      "id": "goyegima",
+      "def": "yellow",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "goye",
+        "gima"
+      ]
+    },
+    {
+      "id": "gilongima",
+      "def": "?",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "gilon",
+        "gima"
+      ]
+    },
+    {
+      "id": "ima",
+      "def": "flower(?), fence(?)",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "cobard",
+      "def": "hopper",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Hopper.png"
+    },
+    {
+      "id": "morg",
+      "def": "?",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "bila",
+      "def": "item, thing, stuff",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "aniani",
+      "def": "?",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "ani"
+      ]
+    },
+    {
+      "id": "lon eeoo",
+      "def": "zero, none",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "lon",
+        "eeoo"
+      ]
+    },
+    {
+      "id": "bokbok",
+      "def": "chicken",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [],
+      "icon": "Invicon_MHF_Chicken.png"
+    },
+    {
+      "id": "bokbok opa",
+      "def": "chicken product, egg(?), feather(?)",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "bokbok",
+        "opa"
+      ]
+    },
+    {
+      "id": "baa",
+      "def": "sheep",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [],
+      "icon": "Invicon_MHF_Sheep.png"
+    },
+    {
+      "id": "aloza",
+      "def": "bed, sleep",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Red_Bed.png"
+    },
+    {
+      "id": "bazawo",
+      "def": "banner",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "baa",
+        "zawoo"
+      ]
+    },
+    {
+      "id": "idadana",
+      "def": "piston",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "ida",
+        "dana"
+      ],
+      "icon": "Invicon_Piston.png"
+    },
+    {
+      "id": "sileko",
+      "def": "sand",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "leko"
+      ],
+      "icon": "Invicon_Sand.png"
+    },
+    {
+      "id": "hileko",
+      "def": "gravel",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "leko"
+      ],
+      "icon": "Invicon_Gravel.png"
+    },
+    {
+      "id": "lekezo",
+      "def": "blast furnace",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "leko",
+        "akezo"
+      ],
+      "icon": "Invicon_Blast_Furnace.png"
+    },
+    {
+      "id": "muplo",
+      "def": "raw, ore",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "tung",
+      "def": "cooked, ingot",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "ogiopa",
+      "def": "leather",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "ogi",
+        "opa"
+      ],
+      "icon": "Invicon_Leather.png"
+    },
+    {
+      "id": "creteopaleko",
+      "def": "redstone",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "creteopa",
+        "leko"
+      ],
+      "icon": "Invicon_Redstone.png"
+    },
+    {
+      "id": "baasa",
+      "def": "wool",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [
+        "baa"
+      ]
+    },
+    {
+      "id": "moosket",
+      "def": "bow",
+      "sessionDocumented": "11/5",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Bow.png"
+    },
+    {
+      "id": "wiga",
+      "def": "compass",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Compass.gif"
+    },
+    {
+      "id": "asu",
+      "def": "sugar",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Sugar.png"
+    },
+    {
+      "id": "asu zawoo",
+      "def": "paper",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [
+        "asu",
+        "zawoo"
+      ],
+      "icon": "Invicon_Paper.png"
+    },
+    {
+      "id": "crete muplo",
+      "def": "wheat",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [
+        "crete",
+        "muplo"
+      ],
+      "icon": "Invicon_Wheat.png"
+    },
+    {
+      "id": "gasa",
+      "def": "map",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Map.png"
+    },
+    {
+      "id": "wasa",
+      "def": "sugar",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [
+        "asa"
+      ],
+      "icon": "Invicon_Sugar.png"
+    },
+    {
+      "id": "crete liga",
+      "def": "cake",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [
+        "crete"
+      ],
+      "icon": "Invicon_Cake.png"
+    },
+    {
+      "id": "nawn",
+      "def": "trip wire hook",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "rucha tinn",
+      "def": "bookshelf",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [
+        "rucha",
+        "tiin"
+      ],
+      "icon": "Invicon_Bookshelf.png"
+    },
+    {
+      "id": "rucha",
+      "def": "book",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Book.png"
+    },
+    {
+      "id": "ogigilon",
+      "def": "milk",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [
+        "ogi",
+        "gilon"
+      ]
+    },
+    {
+      "id": "bangazawanga",
+      "def": "?",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "tisabila",
+      "def": "gun powder, tnt",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [
+        "tisa",
+        "bila"
+      ],
+      "icon": "Invicon_TNT.png"
+    },
+    {
+      "id": "zesu",
+      "def": "easy",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "seda",
+      "def": "armor",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "sedatiin",
+      "def": "armor stand",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [
+        "seda",
+        "tiin"
+      ],
+      "icon": "Invicon_Armor_Stand.png"
+    },
+    {
+      "id": "imatiin",
+      "def": "flower pot",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [
+        "ima",
+        "tiin"
+      ],
+      "icon": "Invicon_Flower_Pot.png"
+    },
+    {
+      "id": "blog",
+      "def": "clay",
+      "sessionDocumented": "11/12",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Clay.png"
+    },
+    {
+      "id": "nish",
+      "def": "used, broken, empty",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "mim",
+      "def": "new, unused, full",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "waa",
+      "def": "go, walk, move",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "aga",
+      "def": "here, near",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "gaga",
+      "def": "there, far",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": [
+        "aga"
+      ]
+    },
+    {
+      "id": "yorgu",
+      "def": "armadillo",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "lorgbila",
+      "def": "enderman",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": [
+        "lorg",
+        "bila"
+      ],
+      "icon": "Invicon_MHF_Enderman.png"
+    },
+    {
+      "id": "ida boga",
+      "def": "roof",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": [
+        "ida",
+        "boga"
+      ]
+    },
+    {
+      "id": "u",
+      "def": "or",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": [
+        "i"
+      ]
+    },
+    {
+      "id": "bz",
+      "def": "bee",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "bzoga",
+      "def": "bee nest",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": [
+        "bz",
+        "boga"
+      ],
+      "icon": "Invicon_Bee_Nest.png"
+    },
+    {
+      "id": "bzbila",
+      "def": "beehive",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": [
+        "bz",
+        "bila"
+      ],
+      "icon": "Invicon_Beehive.png"
+    },
+    {
+      "id": "tisatinn",
+      "def": "campfire",
+      "sessionDocumented": "11/19",
+      "etymologicalRoots": [
+        "tisa",
+        "tiin"
+      ],
+      "icon": "Invicon_Campfire.png"
+    },
+    {
+      "id": "chach",
+      "def": "door",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Oak_Door.png"
+    },
+    {
+      "id": "naf",
+      "def": "side",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "cretemuplosa",
+      "def": "haybale",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": [
+        "crete",
+        "muplo"
+      ]
+    },
+    {
+      "id": "pira",
+      "def": "short, small",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "bron",
+      "def": "big, tall",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "bogan",
+      "def": "?",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "ched",
+      "def": "?",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "rabu",
+      "def": "?",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "i'i",
+      "def": "?",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "brogoye",
+      "def": "?",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": [
+        "bron",
+        "goye"
+      ]
+    },
+    {
+      "id": "piragoye",
+      "def": "?",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": [
+        "pira",
+        "goye"
+      ]
+    },
+    {
+      "id": "hamor",
+      "def": "?",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "rucha bila",
+      "def": "lectern",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": [],
+      "icon": "Invicon_Lectern.png"
+    },
+    {
+      "id": "gilon waa",
+      "def": "go by boat, boat",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": [
+        "gilon",
+        "waa"
+      ],
+      "icon": "Invicon_Boat.png"
+    },
+    {
+      "id": "lorgbilaopa",
+      "def": "ender pearl",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": [
+        "lorgbila",
+        "opa"
+      ],
+      "icon": "Invicon_Ender_Pearl.png"
+    },
+    {
+      "id": "brilekota",
+      "def": "?",
+      "sessionDocumented": "11/26",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "fred",
+      "def": "Fred (player)",
+      "sessionDocumented": "10/22"
+    },
+    {
+      "id": "logan",
+      "def": "Logan (player)",
+      "sessionDocumented": "10/22"
+    }
+  ],
+  "links": [
+    {
+      "source": "opa",
+      "target": "opasa"
+    },
+    {
+      "source": "opasa",
+      "target": "opasafi"
+    },
+    {
+      "source": "leko",
+      "target": "kigleko"
+    },
+    {
+      "source": "leko",
+      "target": "leg-leko"
+    },
+    {
+      "source": "crete",
+      "target": "crete-gilon"
+    },
+    {
+      "source": "gilon",
+      "target": "crete-gilon"
+    },
+    {
+      "source": "crete",
+      "target": "creteopa"
+    },
+    {
+      "source": "opa",
+      "target": "creteopa"
+    },
+    {
+      "source": "crete",
+      "target": "creteleko"
+    },
+    {
+      "source": "leko",
+      "target": "creteleko"
+    },
+    {
+      "source": "giro",
+      "target": "giro-leko"
+    },
+    {
+      "source": "leko",
+      "target": "giro-leko"
+    },
+    {
+      "source": "giro",
+      "target": "giro-opa"
+    },
+    {
+      "source": "opa",
+      "target": "giro-opa"
+    },
+    {
+      "source": "giro",
+      "target": "giro-crete-gilon"
+    },
+    {
+      "source": "crete-gilon",
+      "target": "giro-crete-gilon"
+    },
+    {
+      "source": "giro",
+      "target": "giro-crete"
+    },
+    {
+      "source": "crete",
+      "target": "giro-crete"
+    },
+    {
+      "source": "boga",
+      "target": "bogaga"
+    },
+    {
+      "source": "brik",
+      "target": "lonabrik"
+    },
+    {
+      "source": "leko",
+      "target": "lekoleko"
+    },
+    {
+      "source": "fred",
+      "target": "fredleko"
+    },
+    {
+      "source": "leko",
+      "target": "fredleko"
+    },
+    {
+      "source": "tisa",
+      "target": "tisagilon"
+    },
+    {
+      "source": "gilon",
+      "target": "tisagilon"
+    },
+    {
+      "source": "giro",
+      "target": "giro tisa"
+    },
+    {
+      "source": "tisa",
+      "target": "giro tisa"
+    },
+    {
+      "source": "asu",
+      "target": "asa"
+    },
+    {
+      "source": "lorg",
+      "target": "erg lorg"
+    },
+    {
+      "source": "dana",
+      "target": "dana leko"
+    },
+    {
+      "source": "leko",
+      "target": "dana leko"
+    },
+    {
+      "source": "logan",
+      "target": "loganlorg"
+    },
+    {
+      "source": "lorg",
+      "target": "loganlorg"
+    },
+    {
+      "source": "bi",
+      "target": "bi sil"
+    },
+    {
+      "source": "sil",
+      "target": "bi sil"
+    },
+    {
+      "source": "sil",
+      "target": "sil mor"
+    },
+    {
+      "source": "mor",
+      "target": "sil mor"
+    },
+    {
+      "source": "leko",
+      "target": "lekolekoleko"
+    },
+    {
+      "source": "leko",
+      "target": "lekosa"
+    },
+    {
+      "source": "tisa",
+      "target": "tisalorg"
+    },
+    {
+      "source": "lorg",
+      "target": "tisalorg"
+    },
+    {
+      "source": "creteopa",
+      "target": "creteopagima"
+    },
+    {
+      "source": "gima",
+      "target": "creteopagima"
+    },
+    {
+      "source": "cliclik",
+      "target": "cliclikgima"
+    },
+    {
+      "source": "gima",
+      "target": "cliclikgima"
+    },
+    {
+      "source": "goye",
+      "target": "goyegima"
+    },
+    {
+      "source": "gima",
+      "target": "goyegima"
+    },
+    {
+      "source": "gilon",
+      "target": "gilongima"
+    },
+    {
+      "source": "gima",
+      "target": "gilongima"
+    },
+    {
+      "source": "ani",
+      "target": "aniani"
+    },
+    {
+      "source": "lon",
+      "target": "lon eeoo"
+    },
+    {
+      "source": "eeoo",
+      "target": "lon eeoo"
+    },
+    {
+      "source": "bokbok",
+      "target": "bokbok opa"
+    },
+    {
+      "source": "opa",
+      "target": "bokbok opa"
+    },
+    {
+      "source": "baa",
+      "target": "bazawo"
+    },
+    {
+      "source": "zawoo",
+      "target": "bazawo"
+    },
+    {
+      "source": "ida",
+      "target": "idadana"
+    },
+    {
+      "source": "dana",
+      "target": "idadana"
+    },
+    {
+      "source": "leko",
+      "target": "sileko"
+    },
+    {
+      "source": "leko",
+      "target": "hileko"
+    },
+    {
+      "source": "leko",
+      "target": "lekezo"
+    },
+    {
+      "source": "akezo",
+      "target": "lekezo"
+    },
+    {
+      "source": "ogi",
+      "target": "ogiopa"
+    },
+    {
+      "source": "opa",
+      "target": "ogiopa"
+    },
+    {
+      "source": "creteopa",
+      "target": "creteopaleko"
+    },
+    {
+      "source": "leko",
+      "target": "creteopaleko"
+    },
+    {
+      "source": "baa",
+      "target": "baasa"
+    },
+    {
+      "source": "asu",
+      "target": "asu zawoo"
+    },
+    {
+      "source": "zawoo",
+      "target": "asu zawoo"
+    },
+    {
+      "source": "crete",
+      "target": "crete muplo"
+    },
+    {
+      "source": "muplo",
+      "target": "crete muplo"
+    },
+    {
+      "source": "asa",
+      "target": "wasa"
+    },
+    {
+      "source": "crete",
+      "target": "crete liga"
+    },
+    {
+      "source": "rucha",
+      "target": "rucha tinn"
+    },
+    {
+      "source": "tiin",
+      "target": "rucha tinn"
+    },
+    {
+      "source": "ogi",
+      "target": "ogigilon"
+    },
+    {
+      "source": "gilon",
+      "target": "ogigilon"
+    },
+    {
+      "source": "tisa",
+      "target": "tisabila"
+    },
+    {
+      "source": "bila",
+      "target": "tisabila"
+    },
+    {
+      "source": "seda",
+      "target": "sedatiin"
+    },
+    {
+      "source": "tiin",
+      "target": "sedatiin"
+    },
+    {
+      "source": "ima",
+      "target": "imatiin"
+    },
+    {
+      "source": "tiin",
+      "target": "imatiin"
+    },
+    {
+      "source": "aga",
+      "target": "gaga"
+    },
+    {
+      "source": "lorg",
+      "target": "lorgbila"
+    },
+    {
+      "source": "bila",
+      "target": "lorgbila"
+    },
+    {
+      "source": "ida",
+      "target": "ida boga"
+    },
+    {
+      "source": "boga",
+      "target": "ida boga"
+    },
+    {
+      "source": "i",
+      "target": "u"
+    },
+    {
+      "source": "bz",
+      "target": "bzoga"
+    },
+    {
+      "source": "boga",
+      "target": "bzoga"
+    },
+    {
+      "source": "bz",
+      "target": "bzbila"
+    },
+    {
+      "source": "bila",
+      "target": "bzbila"
+    },
+    {
+      "source": "tisa",
+      "target": "tisatinn"
+    },
+    {
+      "source": "tiin",
+      "target": "tisatinn"
+    },
+    {
+      "source": "crete",
+      "target": "cretemuplosa"
+    },
+    {
+      "source": "muplo",
+      "target": "cretemuplosa"
+    },
+    {
+      "source": "bron",
+      "target": "brogoye"
+    },
+    {
+      "source": "goye",
+      "target": "brogoye"
+    },
+    {
+      "source": "pira",
+      "target": "piragoye"
+    },
+    {
+      "source": "goye",
+      "target": "piragoye"
+    },
+    {
+      "source": "gilon",
+      "target": "gilon waa"
+    },
+    {
+      "source": "waa",
+      "target": "gilon waa"
+    },
+    {
+      "source": "lorgbila",
+      "target": "lorgbilaopa"
+    },
+    {
+      "source": "opa",
+      "target": "lorgbilaopa"
+    }
+  ]
+}
