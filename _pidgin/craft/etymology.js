@@ -1,6 +1,6 @@
 ---
 ---
-const CANVAS = document.getElementById('graph');
+const canvas = document.getElementById('graph');
 
 async function init() {
   let data = await (await fetch( "{{'/assets/pidgincraft-data/etymology-graph.json' | absolute_url}}" )).json();
@@ -12,18 +12,17 @@ async function init() {
 }
 
 function forceGraph(data) {
-  CANVAS.width = CANVAS.clientWidth;
-  CANVAS.height = CANVAS.clientHeight;
+  canvas.width = canvas.clientWidth;
+  canvas.height = canvas.clientHeight;
 
-  const width = CANVAS.width;
-  const height = CANVAS.height;
+  const width = canvas.width;
+  const height = canvas.height;
 
   const w2 = width / 2,
         h2 = height / 2,
         nodeRadius = 5;
 
-  const ctx = CANVAS.getContext('2d');
-  const canvas = CANVAS;
+  const ctx = canvas.getContext('2d');
 
   const simulation = forceSimulation(width, height);
   let transform = d3.zoomIdentity;
@@ -109,7 +108,7 @@ function forceGraph(data) {
       // Node fill
       ctx.moveTo(d.x + nodeRadius, d.y);
       ctx.arc(d.x, d.y, nodeRadius, 0, 2 * Math.PI);
-      ctx.fillStyle = 'blue';
+      ctx.fillStyle = colorNode(d);
       ctx.fill();
       // Node outline
       ctx.strokeStyle = '#fff'
@@ -138,6 +137,12 @@ function findNode(nodes, x, y, radius) {
   }
   // No node selected
   return undefined; 
+}
+
+function colorNode(d) {
+  if (d.def === '?') return 'gray';
+
+  return 'blue';
 }
 
 function forceSimulation(width, height) {
