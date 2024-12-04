@@ -142,7 +142,7 @@
       "icon": 8
     },
     {
-      "id": "leg-leko",
+      "id": "legleko",
       "def": "coal",
       "sessionDocumented": "10/22",
       "etymologicalRoots": [
@@ -231,44 +231,41 @@
       "etymologicalRoots": []
     },
     {
-      "id": "giro-leko",
+      "id": "giroleko",
       "def": "pickaxe",
       "sessionDocumented": "10/22",
       "etymologicalRoots": [
         "giro",
         "leko"
-      ],
-      "icon": 15
+      ]
     },
     {
-      "id": "giro-opa",
+      "id": "giroopa",
       "def": "axe",
       "sessionDocumented": "10/22",
       "etymologicalRoots": [
         "giro",
         "opa"
-      ],
-      "icon": 16
+      ]
     },
     {
-      "id": "giro-crete-gilon",
+      "id": "girocretegilon",
       "def": "fishing rod",
       "sessionDocumented": "10/22",
       "etymologicalRoots": [
         "giro",
         "crete-gilon"
       ],
-      "icon": 17
+      "icon": 15
     },
     {
-      "id": "giro-crete",
+      "id": "girocrete",
       "def": "hoe",
       "sessionDocumented": "10/22",
       "etymologicalRoots": [
         "giro",
         "crete"
-      ],
-      "icon": 18
+      ]
     },
     {
       "id": "boga",
@@ -292,13 +289,13 @@
     },
     {
       "id": "lorg",
-      "def": "phantom (the enemy), hostile mob",
+      "def": "phantom (the enemy), hostile mob, bastard",
       "sessionDocumented": "10/22",
       "etymologicalRoots": []
     },
     {
       "id": "sil",
-      "def": "what?",
+      "def": "what",
       "sessionDocumented": "10/22",
       "etymologicalRoots": []
     },
@@ -325,7 +322,7 @@
       "def": "skeleton, bone",
       "sessionDocumented": "10/29",
       "etymologicalRoots": [],
-      "icon": 19
+      "icon": 16
     },
     {
       "id": "lonabrik",
@@ -348,7 +345,7 @@
       "etymologicalRoots": [
         "leko"
       ],
-      "icon": 20
+      "icon": 17
     },
     {
       "id": "i",
@@ -361,7 +358,7 @@
       "def": "torch",
       "sessionDocumented": "10/29",
       "etymologicalRoots": [],
-      "icon": 21
+      "icon": 18
     },
     {
       "id": "ida",
@@ -386,7 +383,7 @@
       "def": "leaves",
       "sessionDocumented": "10/29",
       "etymologicalRoots": [],
-      "icon": 22
+      "icon": 19
     },
     {
       "id": "kule",
@@ -408,7 +405,7 @@
         "fred",
         "leko"
       ],
-      "icon": 23
+      "icon": 20
     },
     {
       "id": "tisa",
@@ -424,7 +421,7 @@
         "tisa",
         "gilon"
       ],
-      "icon": 24
+      "icon": 21
     },
     {
       "id": "giro tisa",
@@ -434,7 +431,7 @@
         "giro",
         "tisa"
       ],
-      "icon": 25
+      "icon": 22
     },
     {
       "id": "iia",
@@ -447,10 +444,10 @@
       "def": "paper",
       "sessionDocumented": "10/29",
       "etymologicalRoots": [],
-      "icon": 26
+      "icon": 23
     },
     {
-      "id": "erg lorg",
+      "id": "erglorg",
       "def": "?",
       "sessionDocumented": "10/29",
       "etymologicalRoots": [
@@ -458,14 +455,14 @@
       ]
     },
     {
-      "id": "dana leko",
+      "id": "danaleko",
       "def": "deepslate",
       "sessionDocumented": "10/29",
       "etymologicalRoots": [
         "dana",
         "leko"
       ],
-      "icon": 27
+      "icon": 24
     },
     {
       "id": "loganlorg",
@@ -475,17 +472,17 @@
         "logan",
         "lorg"
       ],
-      "icon": 28
+      "icon": 25
     },
     {
       "id": "kras",
       "def": "pig",
       "sessionDocumented": "10/29",
       "etymologicalRoots": [],
-      "icon": 29
+      "icon": 26
     },
     {
-      "id": "bi sil",
+      "id": "bisil",
       "def": "where",
       "sessionDocumented": "10/29",
       "etymologicalRoots": [
@@ -494,7 +491,7 @@
       ]
     },
     {
-      "id": "sil mor",
+      "id": "silmor",
       "def": "who",
       "sessionDocumented": "10/29",
       "etymologicalRoots": [
@@ -509,7 +506,7 @@
       "etymologicalRoots": [
         "leko"
       ],
-      "icon": 30
+      "icon": 27
     },
     {
       "id": "lekosa",
@@ -518,7 +515,7 @@
       "etymologicalRoots": [
         "leko"
       ],
-      "icon": 31
+      "icon": 28
     },
     {
       "id": "tisalorg",
@@ -528,7 +525,7 @@
         "tisa",
         "lorg"
       ],
-      "icon": 32
+      "icon": 29
     },
     {
       "id": "gima",
@@ -544,7 +541,7 @@
         "creteopa",
         "gima"
       ],
-      "icon": 33
+      "icon": 30
     },
     {
       "id": "cliclikgima",
@@ -584,7 +581,7 @@
       "def": "hopper",
       "sessionDocumented": "11/5",
       "etymologicalRoots": [],
-      "icon": 34
+      "icon": 31
     },
     {
       "id": "morg",
@@ -620,10 +617,10 @@
       "def": "chicken",
       "sessionDocumented": "11/5",
       "etymologicalRoots": [],
-      "icon": 35
+      "icon": 32
     },
     {
-      "id": "bokbok opa",
+      "id": "bokbokopa",
       "def": "chicken product, egg(?), feather(?)",
       "sessionDocumented": "11/5",
       "etymologicalRoots": [
@@ -636,14 +633,14 @@
       "def": "sheep",
       "sessionDocumented": "11/5",
       "etymologicalRoots": [],
-      "icon": 36
+      "icon": 33
     },
     {
       "id": "aloza",
       "def": "bed, sleep",
       "sessionDocumented": "11/5",
       "etymologicalRoots": [],
-      "icon": 37
+      "icon": 34
     },
     {
       "id": "bazawo",
@@ -662,7 +659,7 @@
         "ida",
         "dana"
       ],
-      "icon": 38
+      "icon": 35
     },
     {
       "id": "sileko",
@@ -671,7 +668,7 @@
       "etymologicalRoots": [
         "leko"
       ],
-      "icon": 39
+      "icon": 36
     },
     {
       "id": "hileko",
@@ -680,7 +677,7 @@
       "etymologicalRoots": [
         "leko"
       ],
-      "icon": 40
+      "icon": 37
     },
     {
       "id": "lekezo",
@@ -690,7 +687,7 @@
         "leko",
         "akezo"
       ],
-      "icon": 41
+      "icon": 38
     },
     {
       "id": "muplo",
@@ -712,7 +709,7 @@
         "ogi",
         "opa"
       ],
-      "icon": 42
+      "icon": 39
     },
     {
       "id": "creteopaleko",
@@ -722,7 +719,7 @@
         "creteopa",
         "leko"
       ],
-      "icon": 43
+      "icon": 40
     },
     {
       "id": "baasa",
@@ -737,14 +734,14 @@
       "def": "bow",
       "sessionDocumented": "11/5",
       "etymologicalRoots": [],
-      "icon": 44
+      "icon": 41
     },
     {
       "id": "wiga",
       "def": "compass",
       "sessionDocumented": "11/12",
       "etymologicalRoots": [],
-      "icon": 45
+      "icon": 42
     },
     {
       "id": "asu",
@@ -753,17 +750,17 @@
       "etymologicalRoots": [
         "asa"
       ],
-      "icon": 46
+      "icon": 43
     },
     {
-      "id": "asu zawoo",
+      "id": "asuzawoo",
       "def": "paper",
       "sessionDocumented": "11/12",
       "etymologicalRoots": [
         "asu",
         "zawoo"
       ],
-      "icon": 47
+      "icon": 44
     },
     {
       "id": "crete muplo",
@@ -773,14 +770,14 @@
         "crete",
         "muplo"
       ],
-      "icon": 48
+      "icon": 45
     },
     {
       "id": "gasa",
       "def": "map",
       "sessionDocumented": "11/12",
       "etymologicalRoots": [],
-      "icon": 49
+      "icon": 46
     },
     {
       "id": "wasa",
@@ -789,16 +786,16 @@
       "etymologicalRoots": [
         "asa"
       ],
-      "icon": 50
+      "icon": 47
     },
     {
-      "id": "crete liga",
+      "id": "creteliga",
       "def": "cake",
       "sessionDocumented": "11/12",
       "etymologicalRoots": [
         "crete"
       ],
-      "icon": 51
+      "icon": 48
     },
     {
       "id": "nawn",
@@ -814,14 +811,14 @@
         "rucha",
         "tiin"
       ],
-      "icon": 52
+      "icon": 49
     },
     {
       "id": "rucha",
       "def": "book",
       "sessionDocumented": "11/12",
       "etymologicalRoots": [],
-      "icon": 53
+      "icon": 50
     },
     {
       "id": "ogigilon",
@@ -830,7 +827,8 @@
       "etymologicalRoots": [
         "ogi",
         "gilon"
-      ]
+      ],
+      "icon": 51
     },
     {
       "id": "bangazawanga",
@@ -846,7 +844,7 @@
         "tisa",
         "bila"
       ],
-      "icon": 54
+      "icon": 52
     },
     {
       "id": "zesu",
@@ -868,7 +866,7 @@
         "seda",
         "tiin"
       ],
-      "icon": 55
+      "icon": 53
     },
     {
       "id": "imatiin",
@@ -878,14 +876,14 @@
         "ima",
         "tiin"
       ],
-      "icon": 56
+      "icon": 54
     },
     {
       "id": "blog",
       "def": "clay",
       "sessionDocumented": "11/12",
       "etymologicalRoots": [],
-      "icon": 57
+      "icon": 55
     },
     {
       "id": "nish",
@@ -933,7 +931,7 @@
         "lorg",
         "bila"
       ],
-      "icon": 58
+      "icon": 56
     },
     {
       "id": "ida boga",
@@ -966,7 +964,7 @@
         "bz",
         "boga"
       ],
-      "icon": 59
+      "icon": 57
     },
     {
       "id": "bzbila",
@@ -976,7 +974,7 @@
         "bz",
         "bila"
       ],
-      "icon": 60
+      "icon": 58
     },
     {
       "id": "tisatinn",
@@ -986,14 +984,14 @@
         "tisa",
         "tiin"
       ],
-      "icon": 61
+      "icon": 59
     },
     {
       "id": "chach",
       "def": "door",
       "sessionDocumented": "11/26",
       "etymologicalRoots": [],
-      "icon": 62
+      "icon": 60
     },
     {
       "id": "naf",
@@ -1024,9 +1022,11 @@
     },
     {
       "id": "bogan",
-      "def": "?",
+      "def": "",
       "sessionDocumented": "11/26",
-      "etymologicalRoots": []
+      "etymologicalRoots": [
+        "boga"
+      ]
     },
     {
       "id": "ched",
@@ -1047,8 +1047,8 @@
       "etymologicalRoots": []
     },
     {
-      "id": "brogoye",
-      "def": "?",
+      "id": "brongoye",
+      "def": "day, sun",
       "sessionDocumented": "11/26",
       "etymologicalRoots": [
         "bron",
@@ -1057,7 +1057,7 @@
     },
     {
       "id": "piragoye",
-      "def": "?",
+      "def": "night, moon",
       "sessionDocumented": "11/26",
       "etymologicalRoots": [
         "pira",
@@ -1065,10 +1065,13 @@
       ]
     },
     {
-      "id": "hamor",
-      "def": "?",
+      "id": "hamor/ergmor/hrmmor",
+      "def": "villager",
       "sessionDocumented": "11/26",
-      "etymologicalRoots": []
+      "etymologicalRoots": [
+        "mor"
+      ],
+      "icon": 61
     },
     {
       "id": "rucha bila",
@@ -1078,7 +1081,7 @@
         "rucha",
         "bila"
       ],
-      "icon": 63
+      "icon": 62
     },
     {
       "id": "gilon waa",
@@ -1088,7 +1091,7 @@
         "gilon",
         "waa"
       ],
-      "icon": 64
+      "icon": 63
     },
     {
       "id": "lorgbilaopa",
@@ -1098,13 +1101,139 @@
         "lorgbila",
         "opa"
       ],
-      "icon": 65
+      "icon": 64
     },
     {
       "id": "brilekota",
-      "def": "?",
+      "def": "stonecutter",
       "sessionDocumented": "11/26",
+      "etymologicalRoots": [
+        "brik",
+        "leko",
+        "kota"
+      ],
+      "icon": 65
+    },
+    {
+      "id": "gat",
+      "def": "?",
+      "sessionDocumented": "12/3",
       "etymologicalRoots": []
+    },
+    {
+      "id": "malo",
+      "def": "?",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "weemaleko",
+      "def": "obsidian",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": [
+        "weema",
+        "lekolekoleko"
+      ],
+      "icon": 66
+    },
+    {
+      "id": "iu",
+      "def": "i, me",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "nara",
+      "def": "solid, solid block",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "girogat",
+      "def": "sword",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": [
+        "giro",
+        "gat"
+      ]
+    },
+    {
+      "id": "wush",
+      "def": "breeze",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "boga da wush lorg",
+      "def": "trial chamber",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": [
+        "boga",
+        "da",
+        "wush",
+        "lorg"
+      ]
+    },
+    {
+      "id": "bzopa",
+      "def": "honey comb",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": [
+        "bz",
+        "opa"
+      ]
+    },
+    {
+      "id": "slorg",
+      "def": "creeper",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": [
+        "lorg"
+      ],
+      "icon": 67
+    },
+    {
+      "id": "silorg",
+      "def": "?",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": [
+        "lorg"
+      ]
+    },
+    {
+      "id": "mort",
+      "def": "?",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "chuch",
+      "def": "door, portal",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": [],
+      "icon": 68
+    },
+    {
+      "id": "brona",
+      "def": "many",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": [
+        "bron"
+      ]
+    },
+    {
+      "id": "da",
+      "def": "of",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": []
+    },
+    {
+      "id": "yelen",
+      "def": "grass",
+      "sessionDocumented": "12/3",
+      "etymologicalRoots": [
+        "yele"
+      ]
     },
     {
       "id": "fred",
@@ -1132,7 +1261,7 @@
     },
     {
       "source": "leko",
-      "target": "leg-leko"
+      "target": "legleko"
     },
     {
       "source": "crete",
@@ -1160,35 +1289,35 @@
     },
     {
       "source": "giro",
-      "target": "giro-leko"
+      "target": "giroleko"
     },
     {
       "source": "leko",
-      "target": "giro-leko"
+      "target": "giroleko"
     },
     {
       "source": "giro",
-      "target": "giro-opa"
+      "target": "giroopa"
     },
     {
       "source": "opa",
-      "target": "giro-opa"
+      "target": "giroopa"
     },
     {
       "source": "giro",
-      "target": "giro-crete-gilon"
+      "target": "girocretegilon"
     },
     {
       "source": "crete-gilon",
-      "target": "giro-crete-gilon"
+      "target": "girocretegilon"
     },
     {
       "source": "giro",
-      "target": "giro-crete"
+      "target": "girocrete"
     },
     {
       "source": "crete",
-      "target": "giro-crete"
+      "target": "girocrete"
     },
     {
       "source": "boga",
@@ -1228,15 +1357,15 @@
     },
     {
       "source": "lorg",
-      "target": "erg lorg"
+      "target": "erglorg"
     },
     {
       "source": "dana",
-      "target": "dana leko"
+      "target": "danaleko"
     },
     {
       "source": "leko",
-      "target": "dana leko"
+      "target": "danaleko"
     },
     {
       "source": "logan",
@@ -1248,19 +1377,19 @@
     },
     {
       "source": "bi",
-      "target": "bi sil"
+      "target": "bisil"
     },
     {
       "source": "sil",
-      "target": "bi sil"
+      "target": "bisil"
     },
     {
       "source": "sil",
-      "target": "sil mor"
+      "target": "silmor"
     },
     {
       "source": "mor",
-      "target": "sil mor"
+      "target": "silmor"
     },
     {
       "source": "leko",
@@ -1324,11 +1453,11 @@
     },
     {
       "source": "bokbok",
-      "target": "bokbok opa"
+      "target": "bokbokopa"
     },
     {
       "source": "opa",
-      "target": "bokbok opa"
+      "target": "bokbokopa"
     },
     {
       "source": "baa",
@@ -1388,11 +1517,11 @@
     },
     {
       "source": "asu",
-      "target": "asu zawoo"
+      "target": "asuzawoo"
     },
     {
       "source": "zawoo",
-      "target": "asu zawoo"
+      "target": "asuzawoo"
     },
     {
       "source": "crete",
@@ -1408,7 +1537,7 @@
     },
     {
       "source": "crete",
-      "target": "crete liga"
+      "target": "creteliga"
     },
     {
       "source": "rucha",
@@ -1507,12 +1636,16 @@
       "target": "cretemuplosa"
     },
     {
+      "source": "boga",
+      "target": "bogan"
+    },
+    {
       "source": "bron",
-      "target": "brogoye"
+      "target": "brongoye"
     },
     {
       "source": "goye",
-      "target": "brogoye"
+      "target": "brongoye"
     },
     {
       "source": "pira",
@@ -1521,6 +1654,10 @@
     {
       "source": "goye",
       "target": "piragoye"
+    },
+    {
+      "source": "mor",
+      "target": "hamor/ergmor/hrmmor"
     },
     {
       "source": "rucha",
@@ -1545,6 +1682,74 @@
     {
       "source": "opa",
       "target": "lorgbilaopa"
+    },
+    {
+      "source": "brik",
+      "target": "brilekota"
+    },
+    {
+      "source": "leko",
+      "target": "brilekota"
+    },
+    {
+      "source": "kota",
+      "target": "brilekota"
+    },
+    {
+      "source": "weema",
+      "target": "weemaleko"
+    },
+    {
+      "source": "lekolekoleko",
+      "target": "weemaleko"
+    },
+    {
+      "source": "giro",
+      "target": "girogat"
+    },
+    {
+      "source": "gat",
+      "target": "girogat"
+    },
+    {
+      "source": "boga",
+      "target": "boga da wush lorg"
+    },
+    {
+      "source": "da",
+      "target": "boga da wush lorg"
+    },
+    {
+      "source": "wush",
+      "target": "boga da wush lorg"
+    },
+    {
+      "source": "lorg",
+      "target": "boga da wush lorg"
+    },
+    {
+      "source": "bz",
+      "target": "bzopa"
+    },
+    {
+      "source": "opa",
+      "target": "bzopa"
+    },
+    {
+      "source": "lorg",
+      "target": "slorg"
+    },
+    {
+      "source": "lorg",
+      "target": "silorg"
+    },
+    {
+      "source": "bron",
+      "target": "brona"
+    },
+    {
+      "source": "yele",
+      "target": "yelen"
     }
   ]
 }
