@@ -1,6 +1,10 @@
 ---
 ---
 const SPRITE_SHEET_URL = "https://conlang.club/pidgincraft-etymology-graph/spritesheet.png";
+
+const WINDOW_RESIZE_WAIT_MS = 200; // how long to wait before responding to window resize
+let windowResizeTimeoutId;
+
 const canvas = document.getElementById('graph');
 
 async function init() {
@@ -14,7 +18,11 @@ async function init() {
 
   forceGraph(data, spriteSheet);
   window.addEventListener('resize', e => {
-    forceGraph(data, spriteSheet);
+    if (windowResizeTimeoutId) clearTimeout(windowResizeTimeoutId);
+    windowResizeTimeoutId = setTimeout(
+      () => forceGraph(data, spriteSheet),
+      WINDOW_RESIZE_WAIT_MS
+    );
   });
 }
 
