@@ -1,10 +1,10 @@
 ---
 ---
-const SPRITE_SHEET_URL = "{{ '/assets/pidgincraft-data/spritesheet.png' | absolute_url }}";
+const SPRITE_SHEET_URL = "https://conlang.club/pidgincraft-etymology-graph/spritesheet.png";
 const canvas = document.getElementById('graph');
 
 async function init() {
-  const data = await (await fetch( "{{ '/assets/pidgincraft-data/graph.json' | absolute_url }}" )).json();
+  const data = await (await fetch( "https://conlang.club/pidgincraft-etymology-graph/graph.json" )).json();
   // const iconImages = await fetchIconImages(data['nodes']);
   const spriteSheet = await (new Promise(resolve => {
     const image = new Image();
