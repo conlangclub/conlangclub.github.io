@@ -1,5 +1,3 @@
----
----
 const SPRITE_SHEET_URL = "https://conlang.club/pidgincraft-etymology-graph/spritesheet.png";
 
 const canvas = document.getElementById('graph');
