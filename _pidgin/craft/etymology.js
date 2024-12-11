@@ -2,9 +2,6 @@
 ---
 const SPRITE_SHEET_URL = "https://conlang.club/pidgincraft-etymology-graph/spritesheet.png";
 
-const WINDOW_RESIZE_WAIT_MS = 200; // how long to wait before responding to window resize
-let windowResizeTimeoutId;
-
 const canvas = document.getElementById('graph');
 
 async function init() {
@@ -16,13 +13,10 @@ async function init() {
     image.src = SPRITE_SHEET_URL;
   }));
 
-  forceGraph(data, spriteSheet);
+  let simulation = forceGraph(data, spriteSheet);
   window.addEventListener('resize', e => {
-    if (windowResizeTimeoutId) clearTimeout(windowResizeTimeoutId);
-    windowResizeTimeoutId = setTimeout(
-      () => forceGraph(data, spriteSheet),
-      WINDOW_RESIZE_WAIT_MS
-    );
+    simulation.stop();
+    simulation = forceGraph(data, spriteSheet);
   });
 }
 
@@ -45,8 +39,8 @@ function forceGraph(data, spriteSheet) {
 
   // The simulation will alter the input data objects so make
   // copies to protect the originals.
-  const nodes = data.nodes.map(d => Object.assign({}, d));
-  const edges = data.links.map(d => Object.assign({}, d));
+  const nodes = data.nodes;
+  const edges = data.links;
 
   d3.select(canvas)
     .call(d3.drag()
@@ -195,7 +189,7 @@ function forceGraph(data, spriteSheet) {
     ctx.restore();
   }
 
-  return canvas;
+  return simulation;
 }
 
 function drawArrow(ctx, fromX, fromY, toX, toY, fromMargin, toMargin) {
