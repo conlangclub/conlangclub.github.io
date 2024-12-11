@@ -1,27 +1,31 @@
 ---
 title: PidginCraft
 layout: prose
-description: PidginCraft is Seattle Conlang Club's pigin creation game in Minecraft, the sequel to the Pidgin Island Quest RPG.
+description: PidginCraft is an ongoing, collaborative language genesis experiment. Periodically, players get together in a voice call to play Minecraft. The catch is that no one is allowed to speak the same language at the start. The goal is to gradually develop a new, shared pidgin language that we can all understand.
 ---
 <h2 class="mb-0">PidginCraft</h2>
-<p class="lead">PidginCraft is Seattle Conlang Club's pigin creation game in Minecraft, the sequel to the Pidgin Island Quest RPG.</p>
+<p class="lead font-bold">PidginCraft is an ongoing, collaborative language genesis experiment. Periodically, players get together in a voice call to play Minecraft. The catch is that no one is allowed to speak the same language at the start. The goal is to gradually develop a new, shared pidgin language that we can all understand. PidginCraft is the successor to <a href="/pidgin/island/">Pidgin Island Quest</a>.</p>
 
-<div class="md:float-right bg-white p-5 w-96"><aside class="px-5 border border-yellow-300 bg-white rounded" markdown=1>
+<div class="lg:flex lg:flex-row lg:gap-5">
+  <div class="w-full lg:w-1/3">
+    <h3>Schedule</h3>
+    <p class="lead">PidginCraft happens <strong>every Tuesday at 6 PM</strong> Pacific.</p>
+  </div>
+  
 
-<h2 class="my-3 !text-lg">What happened to Pidgin Island Quest?</h2>
+  <div class="w-full lg:w-1/3">
+    <h3>How to join</h3>
+    <p class="lead">Read the <a href="#rules">rules</a>, then join the <a href="/discord">SCC Discord</a> and join the General voice channel during one of our weekly Minecraft sessions. We'll tell you the IP address when you're there.</p>
+  </div>
 
-The SCC's Pidgin-making RPG, Pidgin Island Quest, is now closed, but you can still view [the original PIQ page](/pidgin/island).
-
-</aside></div>
-
-### What's this?
-The Pidgin Game is an ongoing, collaborative language experiment. Periodically, players get together in a voice call and Minecraft server to play Minecraft. The catch is that no one is allowed to speak the same language at the start. The goal of this is to create a new, shared pidgin language that we can all understand.
-
-### Scheduling
-PidginCraft happens **every Tuesday at 6 PM** Pacific time, starting October 22, 2024. Participation in the voice channel of our Discord server is required, and we can give you the IP address there.
-
-### How to join
-New players can join at any time. The only prerequisite for joining is that you own Minecraft. After that you can attend our weekly Minecraft sessions in the [SCC Discord](/discord) and try to make yourself understood in a common pidgin language.
+  <div class="w-full lg:w-1/3">
+    <h3>Resources</h3>
+    <ul class="lead">
+      <li><a href="https://docs.google.com/spreadsheets/d/1_SCZqJMZ1UrwqbQ69Bxpf0JZVwz93x3tBZFf4DPrEDM">PidginCraft dictionary</a></li>
+      <li><a href="/pidgin/craft/etymology">Etymology graph</a></li>
+    </ul>
+  </div>
+</div>
 
 ### Rules
 1. Whenever you talk about something, you should use the pidgin whenever possible.
