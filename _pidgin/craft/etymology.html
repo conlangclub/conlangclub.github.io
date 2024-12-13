@@ -16,9 +16,13 @@ description: A graph of PidginCraft word etymologies
   <aside id="info">
     <h1>{{page.title}}</h1>
     <a href="{{ '/pidgin' | absolute_url }}">← Back to PidginCraft homepage</a>
-    <p>Arrows point from etymological roots to words derived from those roots.</p>
-    <p>Grayed-out words lack a widely accepted definition among players.</p>
-    <p>You can pan around with left-click and zoom with the scrollwheel.</p>
+
+    <details open>
+      <summary>Explanation</summary>
+      <p>Arrows point from etymological roots to words derived from those roots.</p>
+      <p>Grayed-out words lack a widely accepted definition among players.</p>
+      <p>You can pan around with left-click and zoom with the scrollwheel.</p>
+    </details>
 
     <div id="max-session-container">
       <input type="range" name="max-session" id="max-session" list="sessions" step="86400000" />

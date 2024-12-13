@@ -4,6 +4,18 @@ body {
   font-family: "Encode Sans";
 }
 
+h1 {
+  margin-bottom: .2rem;
+}
+
+details {
+  margin-top: 1rem;
+}
+
+summary {
+  font-weight: bold;
+}
+
 #info {
   position: absolute;
   padding: 1rem 2rem;
