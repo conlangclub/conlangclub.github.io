@@ -48,7 +48,7 @@ function isoDate(date) {
  */
 function populateMaxSessionInput(sessions) {
   const firstSession = sessions[0];
-  const lastSession = sessions[0];
+  const lastSession = sessions[sessions.length - 1];
 
   // populate the labels
   const firstSessionSpan = document.getElementById('first-session');
