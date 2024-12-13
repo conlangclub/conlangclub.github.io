@@ -20,8 +20,17 @@ description: A graph of PidginCraft word etymologies
     <p>Grayed-out words lack a widely accepted definition among players.</p>
     <p>You can pan around with left-click and zoom with the scrollwheel.</p>
 
-    <input type="range" name="max-session" id="max-session" list="sessions" step="86400000" />
-    <datalist id="sessions"></datalist>
+    <div id="max-session-container">
+      <input type="range" name="max-session" id="max-session" list="sessions" step="86400000" />
+      <datalist id="sessions"></datalist>
+
+      <div id="max-session-labels">
+        <span id="last-session"></span>
+        <span id="first-session"></span>
+      </div>
+
+      <span id="current-max-session"></span>
+    </div>
   </aside>
 
   <aside id="tooltip" style="display: none;">

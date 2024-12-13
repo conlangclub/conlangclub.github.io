@@ -46,3 +46,14 @@ dl {
 #max-session {
   width: 100%;
 }
+
+#max-session-labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+#current-max-session {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}

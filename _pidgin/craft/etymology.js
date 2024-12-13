@@ -18,27 +18,52 @@ async function init() {
 
   // Make the D3 graph
   let simulation = forceGraph(data, spriteSheet);
+
+  // Listen for window resize and redraw
   window.addEventListener('resize', e => {
     simulation.stop();
     simulation = forceGraph(data, spriteSheet);
   });
+
+  // Listen for change in max-session scrubber and redraw
   document.getElementById('max-session').addEventListener('change', e => {
+    document.getElementById('current-max-session').textContent = getIsoDateOfMaxSession();
     simulation.stop();
     simulation = forceGraph(data, spriteSheet);
-  })
-  
+  }); 
 }
 
 /**
- * 
+ * Get the ISO date (not datetime, just the date part) of the given Date object
+ * @param {Date} date Date to convert
+ * @returns ISO date part
+ */
+function isoDate(date) {
+  return date.toISOString().substring(0, 10);
+}
+
+/**
+ * Populate data for the max-session input scrubber
  * @param {Date[]} sessions Array of session dates
  */
 function populateMaxSessionInput(sessions) {
+  const firstSession = sessions[0];
+  const lastSession = sessions[0];
+
+  // populate the labels
+  const firstSessionSpan = document.getElementById('first-session');
+  const lastSessionSpan = document.getElementById('last-session');
+  firstSessionSpan.textContent = isoDate(firstSession);
+  lastSessionSpan.textContent = isoDate(lastSession);
+  document.getElementById('current-max-session').textContent = lastSessionSpan.textContent;
+
+  // set the max/min/default values of the input scrubber
   const input = document.getElementById('max-session');
   input.min = sessions[0].getTime();
   input.max = sessions[sessions.length-1].getTime();
   input.value = input.max;
 
+  // populate the scrubber's data list
   const sessionDatalist = document.getElementById('sessions');
   for (let session of sessions) {
     const option = document.createElement('option');
@@ -66,10 +91,10 @@ function getSessions(words) {
  * Get the value of the max-session input selector as an ISO date string (not datetime)
  * @returns YYYY-MM-DD ISO date string
  */
-function getISODateOfMaxSession() {
+function getIsoDateOfMaxSession() {
   const maxSessionValue = document.getElementById('max-session').value;
   const maxSessionDate = new Date(Number.parseInt(maxSessionValue))
-  return maxSessionDate.toISOString().substring(0, 10);
+  return isoDate(maxSessionDate);
 }
 
 /**
@@ -79,7 +104,7 @@ function getISODateOfMaxSession() {
  * @returns Nodes and edges for D3
  */
 function filterByMaxSession(data) {
-  const maxSession = getISODateOfMaxSession();
+  const maxSession = getIsoDateOfMaxSession();
   const wordSet = new Set();
 
   nodes = data.nodes.filter(word => word.sessionDocumented <= maxSession);
