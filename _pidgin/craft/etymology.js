@@ -4,20 +4,101 @@ const canvas = document.getElementById('graph');
 
 async function init() {
   const data = await (await fetch( "https://conlang.club/pidgincraft-etymology-graph/graph.json" )).json();
-  // const iconImages = await fetchIconImages(data['nodes']);
+
+  // Wait for sprite sheet to be fetched
   const spriteSheet = await (new Promise(resolve => {
     const image = new Image();
     image.onload = () => resolve(image);
     image.src = SPRITE_SHEET_URL;
   }));
 
+  // Determine sessions where words were added
+  const sessions = getSessions(data.nodes);
+  populateMaxSessionInput(sessions);
+
+  // Make the D3 graph
   let simulation = forceGraph(data, spriteSheet);
   window.addEventListener('resize', e => {
     simulation.stop();
     simulation = forceGraph(data, spriteSheet);
   });
+  document.getElementById('max-session').addEventListener('change', e => {
+    simulation.stop();
+    simulation = forceGraph(data, spriteSheet);
+  })
+  
 }
 
+/**
+ * 
+ * @param {Date[]} sessions Array of session dates
+ */
+function populateMaxSessionInput(sessions) {
+  const input = document.getElementById('max-session');
+  input.min = sessions[0].getTime();
+  input.max = sessions[sessions.length-1].getTime();
+  input.value = input.max;
+
+  const sessionDatalist = document.getElementById('sessions');
+  for (let session of sessions) {
+    const option = document.createElement('option');
+    option.value = session.getTime();
+    sessionDatalist.append(option);
+  }
+}
+
+/**
+ * Get the dates of each session where a word was attested.
+ * @param {Object[]} words List of words with a sessionDocumented attribute.
+ * @returns {Date[]} Array of session dates
+ */
+function getSessions(words) {
+  let sessions = new Set();
+  words.forEach(w => sessions.add(w.sessionDocumented));
+
+  return Array.from(sessions)
+    .sort()
+    .map(session => new Date(session))
+    .filter(date => !Number.isNaN(date.valueOf()));
+}
+
+/**
+ * Get the value of the max-session input selector as an ISO date string (not datetime)
+ * @returns YYYY-MM-DD ISO date string
+ */
+function getISODateOfMaxSession() {
+  const maxSessionValue = document.getElementById('max-session').value;
+  const maxSessionDate = new Date(Number.parseInt(maxSessionValue))
+  return maxSessionDate.toISOString().substring(0, 10);
+}
+
+/**
+ * Filter nodes and edges to include only words created before the date of the
+ * max-session selector.
+ * @param {Object} data Pidgin etymology graph object (contains `nodes` and `links`)
+ * @returns Nodes and edges for D3
+ */
+function filterByMaxSession(data) {
+  const maxSession = getISODateOfMaxSession();
+  const wordSet = new Set();
+
+  nodes = data.nodes.filter(word => word.sessionDocumented <= maxSession);
+  nodes.forEach(word => wordSet.add(word.id));
+
+  edges = data.links.filter(edge => (
+    (wordSet.has(edge.source) && wordSet.has(edge.target)) ||
+    (wordSet.has(edge.source.id) && wordSet.has(edge.target.id)))
+  );
+
+  return [nodes, edges];
+}
+
+/**
+ * Create and run a D3 force simulation of the given graph
+ * @param {Object} data Pidgin etymology graph object (contains `nodes` and `links`)
+ * @param {Image} spriteSheet Sprite sheet for nodes with an icon index
+ * @returns {Object} D3 force simulation object
+ */
 function forceGraph(data, spriteSheet) {
   canvas.width = canvas.clientWidth;
   canvas.height = canvas.clientHeight;
@@ -35,10 +116,7 @@ function forceGraph(data, spriteSheet) {
   const simulation = forceSimulation(width, height);
   let transform = d3.zoomIdentity;
 
-  // The simulation will alter the input data objects so make
-  // copies to protect the originals.
-  const nodes = data.nodes;
-  const edges = data.links;
+  const [nodes, edges] = filterByMaxSession(data);
 
   d3.select(canvas)
     .call(d3.drag()

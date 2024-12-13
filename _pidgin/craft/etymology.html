@@ -10,60 +10,18 @@ description: A graph of PidginCraft word etymologies
   <title>{{page.title}}</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden;
-      font-family: "Encode Sans";
-    }
-
-    #info {
-      position: absolute;
-      padding: 1rem 2rem;
-      background-color: rgba(255, 255, 255, .8);
-    }
-
-    #graph {
-      width: 100vw;
-      height: 100vh;
-    }
-
-    #tooltip {
-      position: absolute;
-      border-radius: .25rem;
-      background-color: white;
-      padding: .5rem .8rem;
-      box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-      font-size: small;
-    }
-
-    #tooltip h2 {
-      margin: 0;
-    }
-
-    dt {
-      font-weight: bold;
-      margin-right: 1rem;
-    }
-
-    dl {
-      margin-bottom: 0;
-    }
-
-    .tooltip-field {
-      margin-bottom: .25rem;
-      display: flex;
-      justify-content: space-between;
-    }
-  </style>
+  <link rel="stylesheet" href="etymology.css">
 </head>
 <body>
   <aside id="info">
     <h1>{{page.title}}</h1>
+    <a href="{{ '/pidgin' | absolute_url }}">← Back to PidginCraft homepage</a>
     <p>Arrows point from etymological roots to words derived from those roots.</p>
     <p>Grayed-out words lack a widely accepted definition among players.</p>
     <p>You can pan around with left-click and zoom with the scrollwheel.</p>
-    <a href="{{ '/pidgin' | absolute_url }}">← Back to PidginCraft homepage</a>
+
+    <input type="range" name="max-session" id="max-session" list="sessions" step="86400000" />
+    <datalist id="sessions"></datalist>
   </aside>
 
   <aside id="tooltip" style="display: none;">

@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Encode Sans";
+}
+
+#info {
+  position: absolute;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, .8);
+}
+
+#graph {
+  width: 100vw;
+  height: 100vh;
+}
+
+#tooltip {
+  position: absolute;
+  border-radius: .25rem;
+  background-color: white;
+  padding: .5rem .8rem;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  font-size: small;
+}
+
+#tooltip h2 {
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+dl {
+  margin-bottom: 0;
+}
+
+.tooltip-field {
+  margin-bottom: .25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#max-session {
+  width: 100%;
+}
