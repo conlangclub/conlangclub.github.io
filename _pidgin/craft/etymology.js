@@ -2,6 +2,8 @@ const SPRITE_SHEET_URL = "https://conlang.club/pidgincraft-etymology-graph/sprit
 
 const canvas = document.getElementById('graph');
 
+let transform = d3.zoomIdentity; // the current D3 transform of the main chart, for zooming
+
 async function init() {
   const data = await (await fetch( "https://conlang.club/pidgincraft-etymology-graph/graph.json" )).json();
 
@@ -139,7 +141,6 @@ function forceGraph(data, spriteSheet) {
   ctx.imageSmoothingEnabled = false;
 
   const simulation = forceSimulation(width, height);
-  let transform = d3.zoomIdentity;
 
   const [nodes, edges] = filterByMaxSession(data);
 
@@ -153,7 +154,7 @@ function forceGraph(data, spriteSheet) {
           .on('end', dragEnded))
     .call(d3.zoom()
           .scaleExtent([1 / 10, 8])
-          .on('zoom', zoomed))
+          .on('zoom', () => {transform = d3.event.transform}))
     .on('mousemove', showTooltip);
 
   function showTooltip() {
@@ -188,11 +189,6 @@ function forceGraph(data, spriteSheet) {
     .on("tick",simulationUpdate);
   simulation.force("link")
     .links(edges);
-
-  function zoomed() {
-    transform = d3.event.transform;
-    simulationUpdate();
-  }
   
   /** Find the node that was clicked, if any, and return it. */
   function dragSubject() {
