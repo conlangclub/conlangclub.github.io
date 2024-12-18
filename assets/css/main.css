@@ -1,6 +1,8 @@
 ---
 ---
 @import "./assets/css/fonts.css";
+@import "./assets/css/a.css";
+@import "./assets/css/headings.css";
 @import "./assets/css/marquee.css";
 @import "./assets/css/pages/index.css";
 @import "./assets/css/pages/projects.css";
@@ -44,41 +46,11 @@ cite, .text-muted {
   @apply text-slate-500;
 }
 
-h2 {
-  @apply text-3xl;
-  @apply mb-3;
-  @apply font-encodesans;
-  @apply font-semibold;
-}
-
-h3 {
-  @apply text-3xl;
-  @apply font-encodesans;
-}
-
-h4 {
-  @apply text-2xl;
-  @apply font-encodesans;
-}
-
 .fig-float-end {
   @apply lg:float-end;
   @apply flex;
   @apply justify-center;
   @apply ms-5;
-}
-
-a {
-  @apply text-blue-600;
-  @apply underline;
-}
-
-a:hover {
-  @apply text-blue-800;
-}
-
-a:visited {
-  @apply text-purple-800;
 }
 
 .nav-link {

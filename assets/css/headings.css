@@ -1,0 +1,16 @@
+h2 {
+  @apply text-3xl;
+  @apply mb-3;
+  @apply font-encodesans;
+  @apply font-semibold;
+}
+
+h3 {
+  @apply text-3xl;
+  @apply font-encodesans;
+}
+
+h4 {
+  @apply text-2xl;
+  @apply font-encodesans;
+}
