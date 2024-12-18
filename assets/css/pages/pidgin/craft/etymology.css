@@ -1,15 +1,15 @@
+---
+---
+@import "/assets/css/a.css";
+@import "/assets/css/headings.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   overflow: hidden;
-  font-family: "Encode Sans";
-}
-
-h1 {
-  margin-bottom: .2rem;
-}
-
-details {
-  margin-top: 1rem;
 }
 
 summary {
@@ -41,8 +41,8 @@ summary {
 }
 
 dt {
+  @apply mr-3;
   font-weight: bold;
-  margin-right: 1rem;
 }
 
 dl {
@@ -50,7 +50,7 @@ dl {
 }
 
 .tooltip-field {
-  margin-bottom: .25rem;
+  @apply my-0.5;
   display: flex;
   justify-content: space-between;
 }

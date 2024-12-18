@@ -10,14 +10,14 @@ description: A graph of PidginCraft word etymologies
   <title>{{page.title}}</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="etymology.css">
+  <link rel="stylesheet" href="/assets/css/pages/pidgin/craft/etymology.css">
 </head>
 <body>
-  <aside id="info">
-    <h1>{{page.title}}</h1>
-    <a href="{{ '/pidgin' | absolute_url }}">← Back to PidginCraft homepage</a>
+  <aside id="info" class="shadow shadow-lg">
+    <h1 class="font-bold text-3xl">{{page.title}}</h1>
+    <a class="" href="{{ '/pidgin' | absolute_url }}">← Back to PidginCraft homepage</a>
 
-    <details open>
+    <details open class="mb-3 border-t border-b p-3 my-3">
       <summary>Explanation</summary>
       <p>Arrows point from etymological roots to words derived from those roots.</p>
       <p>Grayed-out words lack a widely accepted definition among players.</p>
@@ -29,16 +29,16 @@ description: A graph of PidginCraft word etymologies
       <datalist id="sessions"></datalist>
 
       <div id="max-session-labels">
-        <span id="first-session"></span>
-        <span id="last-session"></span>
+        <span id="first-session" class="text-sm"></span>
+        <span id="last-session" class="text-sm"></span>
       </div>
 
-      <span id="current-max-session"></span>
+      <span id="current-max-session" class="text-xl"></span>
     </div>
   </aside>
 
-  <aside id="tooltip" style="display: none;">
-    <h2 id="tooltip-word"></h2>
+  <aside id="tooltip" class="select-none hidden">
+    <h2 id="tooltip-word" class="font-bold text-xl border-b"></h2>
     <dl>
       <div class="tooltip-field">
         <dt>First attested</dt>
