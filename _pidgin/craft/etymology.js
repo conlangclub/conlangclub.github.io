@@ -154,7 +154,10 @@ function forceGraph(data, spriteSheet) {
           .on('end', dragEnded))
     .call(d3.zoom()
           .scaleExtent([1 / 10, 8])
-          .on('zoom', () => {transform = d3.event.transform}))
+          .on('zoom', () => {
+            simulationUpdate();
+            transform = d3.event.transform;
+          }))
     .on('mousemove', showTooltip);
 
   function showTooltip() {
