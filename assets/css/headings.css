@@ -1,18 +1,20 @@
 @import "fonts.css";
 
-h2 {
-  @apply text-3xl;
-  @apply mb-3;
-  @apply font-encodesans;
-  @apply font-semibold;
-}
-
-h3 {
-  @apply text-3xl;
-  @apply font-encodesans;
-}
-
-h4 {
-  @apply text-2xl;
-  @apply font-encodesans;
+@layer base {
+  h2 {
+    @apply text-3xl;
+    @apply mb-3;
+    @apply font-encodesans;
+    @apply font-semibold;
+  }
+  
+  h3 {
+    @apply text-3xl;
+    @apply font-encodesans;
+  }
+  
+  h4 {
+    @apply text-2xl;
+    @apply font-encodesans;
+  }
 }
