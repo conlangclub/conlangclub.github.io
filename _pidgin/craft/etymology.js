@@ -278,12 +278,13 @@ function forceGraph(data, spriteSheet) {
       ctx.textAlign = 'center';
       ctx.strokeStyle = 'white';
       ctx.fillStyle = 'black';
+      let label = d.id.length > 15 ? d.id.substring(0,13) + '...' : d.id;
       if (d.icon) {
-        ctx.strokeText(d.id, d.x, d.y + 24);
-        ctx.fillText(d.id, d.x, d.y + 24);
+        ctx.strokeText(label, d.x, d.y + 24);
+        ctx.fillText(label, d.x, d.y + 24);
       } else {
-        ctx.strokeText(d.id, d.x, d.y + 16);
-        ctx.fillText(d.id, d.x, d.y + 16);
+        ctx.strokeText(label, d.x, d.y + 16);
+        ctx.fillText(label, d.x, d.y + 16);
       }
     });
     ctx.restore();
