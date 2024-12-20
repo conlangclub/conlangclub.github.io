@@ -3,6 +3,7 @@ const SPRITE_SHEET_URL = "https://conlang.club/pidgincraft-etymology-graph/sprit
 const canvas = document.getElementById('graph');
 
 let transform = d3.zoomIdentity; // the current D3 transform of the main chart, for zooming
+let playbackIntervalId; // ID of the itnerval for automatically advancing to the next session
 
 async function init() {
   const data = await (await fetch( "https://conlang.club/pidgincraft-etymology-graph/graph.json" )).json();
@@ -32,7 +33,46 @@ async function init() {
     document.getElementById('current-max-session').textContent = getIsoDateOfMaxSession();
     simulation.stop();
     simulation = forceGraph(data, spriteSheet);
-  }); 
+  });
+
+  document.getElementById('playback-toggle').addEventListener('click', e => togglePlayback(sessions));
+}
+
+function togglePlayback(sessions) {
+  const playbackToggle = document.getElementById('playback-toggle');
+  const isPlaying = playbackToggle.textContent === 'Stop';
+
+  const sessionSelect = document.getElementById('max-session');
+
+  if (isPlaying) {
+    stopPlayback(playbackToggle);
+  } else {
+    playbackToggle.textContent = 'Stop';
+    sessionSelect.value = sessions[0].getTime();
+    sessionSelect.dispatchEvent(new Event('change'));
+    playbackIntervalId = setInterval(() => advanceMaxSession(sessionSelect, sessions, playbackToggle), 1.5 * 1000);
+  }
+}
+
+function stopPlayback(playbackToggle) {
+  playbackToggle.textContent = 'Play';
+  clearInterval(playbackIntervalId);
+}
+
+function advanceMaxSession(sessionSelect, sessions, playbackToggle) {
+  const currentSession = Number.parseInt(sessionSelect.value);
+
+  if (currentSession >= sessions[sessions.length-1].getTime()) {
+    stopPlayback(playbackToggle);
+  }
+
+  for (let [i, session] of sessions.entries()) {
+    if (currentSession < session.getTime()) {
+      sessionSelect.value = session.getTime();
+      sessionSelect.dispatchEvent(new Event('change'));
+      break;
+    }
+  }
 }
 
 /**
