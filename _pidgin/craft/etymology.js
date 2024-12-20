@@ -40,21 +40,25 @@ async function init() {
 
 function togglePlayback(sessions) {
   const playbackToggle = document.getElementById('playback-toggle');
-  const isPlaying = playbackToggle.textContent === 'Stop';
+  const isPlaying = playbackToggle.textContent === 'Pause';
 
   const sessionSelect = document.getElementById('max-session');
+  const currentSession = Number.parseInt(sessionSelect.value);
+  const lastSession = sessions[sessions.length-1].getTime();
 
   if (isPlaying) {
-    stopPlayback(playbackToggle);
+    pausePlayback(playbackToggle);
   } else {
-    playbackToggle.textContent = 'Stop';
-    sessionSelect.value = sessions[0].getTime();
+    playbackToggle.textContent = 'Pause';
+    if (currentSession >= lastSession) {
+      sessionSelect.value = sessions[0].getTime();
+    }
     sessionSelect.dispatchEvent(new Event('change'));
     playbackIntervalId = setInterval(() => advanceMaxSession(sessionSelect, sessions, playbackToggle), 1.5 * 1000);
   }
 }
 
-function stopPlayback(playbackToggle) {
+function pausePlayback(playbackToggle) {
   playbackToggle.textContent = 'Play';
   clearInterval(playbackIntervalId);
 }
@@ -63,7 +67,7 @@ function advanceMaxSession(sessionSelect, sessions, playbackToggle) {
   const currentSession = Number.parseInt(sessionSelect.value);
 
   if (currentSession >= sessions[sessions.length-1].getTime()) {
-    stopPlayback(playbackToggle);
+    pausePlayback(playbackToggle);
   }
 
   for (let [i, session] of sessions.entries()) {
