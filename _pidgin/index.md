@@ -31,7 +31,7 @@ description: PidginCraft is an ongoing, collaborative language genesis experimen
 1. Whenever you talk about something, you should use the pidgin whenever possible.
 1. The pidgin **must** be used when talking about Minecraft and the pidgin world, **except** where technical support is required beyond the scope of normal gameplay (e.g. if you can't connect to the server).
 1. English (and other pre-existing languages) **must not** be used to say anything that steers the pidgin in a certain direction or encourages other players to do so.
-1. Any new words you create must be made up, either on the fly or ahead of time, but try to existing words in the pidgin if possible.
+1. Any new words you create must be made up, either on the fly or ahead of time, but try to use existing words in the pidgin if possible.
 1. We will come together at the end of every session to document the state of the language.
 1. All pidgin usage that does not take place during the synchronous sessions should be done in `#pidgin-speaking` channel.
 1. (Optional) think of a language feature you want to introduce to the pidgin, but keep it secret. Try to make other people use your language feature.
