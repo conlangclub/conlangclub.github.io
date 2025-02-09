@@ -9,7 +9,7 @@ description: PidginCraft is an ongoing, collaborative language genesis experimen
 <div class="lg:flex lg:flex-row lg:gap-5">
   <div class="w-full lg:w-1/3">
     <h3>Schedule</h3>
-    <p class="lead">PidginCraft happens <strong>every Tuesday at 6 PM</strong> Pacific.</p>
+    <p class="lead">PidginCraft happens <strong>every Thursday and Saturday at 6 PM</strong> Pacific.</p>
   </div>
   
 
