@@ -21,7 +21,7 @@ description: PidginCraft is an ongoing, collaborative language genesis experimen
   <div class="w-full lg:w-1/3">
     <h3>Resources</h3>
     <ul class="lead">
-      <li><a href="https://docs.google.com/spreadsheets/d/1_SCZqJMZ1UrwqbQ69Bxpf0JZVwz93x3tBZFf4DPrEDM">PidginCraft dictionary</a></li>
+      <li><a href="/assets/conlang-docs/udano-mormor-starter-pack-2025-03-12.pdf">Udano Mor starter pack</a></li>
       <li><a href="/pidgin/craft/etymology">Etymology graph</a></li>
     </ul>
   </div>
