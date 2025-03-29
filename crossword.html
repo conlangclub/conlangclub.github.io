@@ -11,11 +11,13 @@ description: Conlang-related crosswords created by Seattle Conlang Club member
 
   <li class="list-none">
     {% for crossword in site.crossword %}
-      <h3 class="text-xl font-bold">
-        <a href="{{ crossword.url | absolute_url }}">{{ crossword.title }}</a>
-        by {{ crossword.author }}
-      </h3>
-      {{ crossword.description }}
+      <div class="mb-5">
+        <h3 class="text-xl font-bold">
+          <a href="{{ crossword.url | absolute_url }}">{{ crossword.title }}</a>
+          by {{ crossword.author }}
+        </h3>
+        {{ crossword.description }}
+      </div>
     {% endfor %}
   </li>
 </main>
