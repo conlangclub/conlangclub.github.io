@@ -21,8 +21,8 @@ description: Submission guidelines and formatting help for the Seattle Conlang C
 * The following fonts and sizes are strongly recommended, unless you have a good reason to use different ones:
     - Article title: [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue) 20pt
     - Subheadings: [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue) 14pt
-    - Body content/prose: [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans) 10pt
-    - Article summary: [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans) 10pt bold
+    - Body content/prose: [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans) 9pt
+    - Article summary: [Noto Sans Light](https://fonts.google.com/noto/specimen/Noto+Sans) 10pt
 * There is no page limit or requirement, but we anticipate most people will submit 0.5 ~ 3 pages per article.
 * Color is allowed, but be mindful of people who want to print this at home. Don't waste ink!
     - You can check for color contrast with [Colbis](https://www.color-blindness.com/coblis-color-blindness-simulator/)
