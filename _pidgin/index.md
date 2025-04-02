@@ -42,16 +42,13 @@ description: PidginCraft is an ongoing, collaborative language genesis experimen
 **We invent new words and grammar as needed, and try to get other people to understand it.** You can communicate the meaning of your words by doing actions (e.g. by saying your word for 'stone' while placing stone blocks).
 
 #### Do I have to attend every meeting?
-**No, you do not need to attend every meeting.** Regularly attending meetings will help you practice your pidgin language skills, but you can read the dictionary if you would like to catch up while you're away.
+**No, you do not need to attend every meeting.** We have an asynchronous text channel, `#udano-udano-mor`, if you would want to practice your Udano Mor while you're away.
 
 #### I want to invent a new word for something, but I think someone else already made a word for it. What should I do?
-**It's totally fine to invent new words for something even if there's already an existing pidgin word!** The language is fluid and constantly evolving, so it's perfectly natural to re-invent words for things.
+**It's expected to invent new words for something even if there's already an existing pidgin word!** The language is fluid and constantly evolving, so it's perfectly natural to re-invent words for things.
 
 #### I find it hard to invent words and grammar rules on the fly, how can I make it easier for myself?
 **One strategy is to come up with some words without meaning before a Minecraft session.** Then when it comes time to play Minecraft, if you encounter a concept that you want to communicate, you can just pick from that list of words and assign it a meaning. You can also come up with grammar rules ahead of time if you want.
 
 #### Other players seem to be able to understand each other a bit, but I am completely lost. How can I catch up?
-**Ask players what their words mean!** You can also read the dictionary, but try not to rely on it too much because it's usually more fun to ask and puzzle through it together.
-
-#### I can't find a word someone used in the dictionary, what do I do?
-**Ask the player what their word means!** The word might be very new, so it won't be in the dictionary. Words are only added to the dictionary at the end of each session, and only if there is a consensus on the meaning of the word.
+**Ask players what their words mean!** The starter pack has a set of starter words, enough to get you to ask basic questions.
