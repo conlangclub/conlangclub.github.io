@@ -34,7 +34,7 @@ description: PidginCraft is an ongoing, collaborative language genesis experimen
 1. New words must be made up and not be from an existing language.
     * If you cannot remember a word for something, feel free to make up a new word for it!
 1. We will come together at the end of every session to document the state of the language.
-1. All pidgin usage that does not take place during the synchronous sessions should be done in `#pidgin-speaking` channel.
+1. All pidgin usage that does not take place during the synchronous sessions should be done in `#udano-udano-mor` channel.
 1. (Optional) think of a language feature you want to introduce to the pidgin, but keep it secret. Try to make other people use your language feature.
 
 ### FAQ
