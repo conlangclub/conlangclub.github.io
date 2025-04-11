@@ -5,6 +5,7 @@ layout: prose
 description: 'This page contains the bibliography for "Ethics of constructed communication: a case study of Makaton & Signuno" in issue 2 of the SCC Zine.'
 ---
 ## Bibliography for "Ethics of constructed communication: a case study of Makaton & Signuno"
+Numbers in brackets in the Zine article correspond to numbered entries in this bibliography, so `[2]` in the text refers to *British Sign Language Act 2022*, the second item in the bibliography.
 
 ### Main text
 [1] Moores, Donald F. “Partners in Progress: The 21st International Congress
