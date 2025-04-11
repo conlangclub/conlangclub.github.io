@@ -1,5 +1,6 @@
 ---
 title: Horoscope
+permalink: /horoscope
 layout: prose
 description: This page includes additional information and references about the SCC language horoscope, first seen in issue 2 of the SCC Zine.
 ---
