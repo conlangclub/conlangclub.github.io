@@ -229,7 +229,6 @@ function forceGraph(data, spriteSheet) {
     } else {
       document.getElementById('tooltip-etymological-roots').textContent = '-';
     }
-    document.getElementById('tooltip-def').textContent = hoveredNode.def || '?';
   }
 
   simulation.nodes(nodes)
