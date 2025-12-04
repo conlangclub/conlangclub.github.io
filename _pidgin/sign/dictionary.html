@@ -1,0 +1,30 @@
+---
+title: SCC PidginSign Dictionary
+layout: default
+description: TODO Placeholder
+---
+<main class="container">
+  {% assign dict_videos = site.static_files | where_exp: "file", "file.path contains 'dict_videos'" | sort_natural: "basename" %}
+  {% for file in dict_videos %}
+    <details class="dict-entry mb-3 text-lg" data-path="{{ "/" | append: file.path | replace_first: "_", "" }}">
+      <summary>{{ file.basename | upcase }}</summary>
+    </details>
+  {% endfor %}
+</main>
+
+<script>
+  function loadVideo(detailsElem) {
+    const videoElem = document.createElement('video');
+    videoElem.controls = true;
+    videoElem.muted = true;
+    videoElem.src = detailsElem.dataset.path;
+    videoElem.width = 300;
+    detailsElem.appendChild(videoElem);
+    detailsElem.onclick = '';
+  }
+
+  document.querySelectorAll('.dict-entry').forEach(elem => {
+    elem.querySelector('summary').textContent += ' (' + elem.dataset.path.match(/[0-9]{4}-[0-9]{2}-[0-9]{2}/)[0] + ')'
+    elem.onclick = () => loadVideo(elem);
+  })
+</script>
